@@ -6,7 +6,7 @@ html {
 #header {
     width: 100%;
     transition: background ease-out 0.2s;
-    background: linear-gradient(to bottom, #30354b, var(--dark-blue_bg));
+    background: linear-gradient(to bottom, #30354b, #120F23);
 }
 
 #header .navbar-collapse {
@@ -14,8 +14,7 @@ html {
 }
 
 .navbar {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 0 40px 0;
 }
 
 #logo-header {
@@ -49,23 +48,6 @@ html {
     padding-bottom: 80px;
 }
 
-#introduction h1 {
-    font-size: 8vh;
-    font-weight: 900;
-    color: var(--white_gn);
-    line-height: 1;
-}
-
-#introduction h4 {
-    font-size: 3vh;
-    color: var(--orange_gn);
-}
-
-#introduction p {
-    font-size: 2vh;
-    color: var(--light-graw_gn);
-}
-
 .card-primary {
     background-color: var(--light-graw_discord);
 }
@@ -76,7 +58,7 @@ html {
 }
 
 #cta-video {
-    background-color: #191b24;
+    background-color: #101116;
     color: var(--light-graw_gn);
     border-radius: 8px;
     text-transform: uppercase;
@@ -105,4 +87,63 @@ html {
     height: 90px;
     border-radius: 8px;
     margin: 10px;
+}
+
+#widget-discord {
+    width: 100%;
+    min-height: 400px;
+    margin-top: -40px;
+}
+
+#mission {
+    padding-bottom: 80px;
+    width: 100%;
+    transition: background ease-out 0.2s;
+    background-color: #29303e;
+}
+
+#mission-description h3,
+p {
+    margin-bottom: 20px;
+}
+
+#stats {
+    padding-bottom: 80px;
+    padding-top: 50px;
+    width: 100%;
+    transition: background ease-out 0.2s;
+    background-color: #29303e;
+}
+
+#documentarion {
+    padding-bottom: 80px;
+    padding-top: 50px;
+    width: 100%;
+    transition: background ease-out 0.2s;
+    background-color: #29303e;
+}
+
+#doc-image {
+    transition: background ease-out 0.2s;
+    background-color: var(--blue_gn);
+    border-top-left-radius: 50%;
+}
+
+#doc-image img {
+    width: 80%;
+    margin: 40px;
+}
+
+#footer {
+    width: 100%;
+    transition: background ease-out 0.2s;
+    background: linear-gradient(to bottom, #29303e, #120F23);
+}
+
+footer {
+    padding: 40px 0 40px 0;
+}
+
+#copyright {
+    color: var(--light-graw_gn);
 }

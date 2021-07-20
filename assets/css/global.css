@@ -1,3 +1,34 @@
+h1 {
+    font-size: 8vh;
+    font-weight: 900;
+    color: var(--white_gn);
+    line-height: 1;
+}
+
+h3 {
+    color: var(--white_gn);
+    font-weight: bold;
+    font-size: 3vh;
+    padding: 0;
+    margin: 0;
+}
+
+h4 {
+    font-size: 3vh;
+    color: var(--orange_gn);
+}
+
+p {
+    font-size: 2vh;
+    color: var(--light-graw_gn);
+}
+
+span {
+    font-size: 4vh;
+    color: var(--orange_gn);
+    font-weight: bold;
+}
+
 .button {
     text-transform: uppercase;
     font-weight: 500;
@@ -37,4 +68,8 @@
     font-size: 2vh;
     padding: 0;
     margin: 0;
+}
+
+.border-l {
+    border-left: solid 1px #8b96aa2f;
 }

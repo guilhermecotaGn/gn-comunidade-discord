@@ -12,6 +12,10 @@
         margin-top: -12%;
         margin-left: -9%;
     }
+
+    #mission-description {
+        padding: 40px 0 0 40px;
+    }
 }
 /* /LARGE WIDTH */
 
@@ -32,6 +36,10 @@
     .card {
         width: 54%;
         margin: 0 auto;
+    }
+
+    #mission-description {
+        padding: 20px 0 0 20px;
     }
 }
 /* /MEDIUM WIDTH */
@@ -61,6 +69,10 @@
         height: 120px;
         border-radius: 8px;
         margin: 10px;
+    }
+
+    #mission-description {
+        padding: 0;
     }
 }
 /* /MINIMAL WIDTH */
