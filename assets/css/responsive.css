@@ -47,7 +47,7 @@
 
 
 /* MINIMAL WIDTH */
-@media (max-width: 991px) {
+@media (max-width: 767px) {
     .card {
         width: 100%;
     }
@@ -57,13 +57,10 @@
     }
 
     #video-discord {
-        width: 40%;
-        height: 90px;
+        width: 95%;
+        height: 120px;
         border-radius: 8px;
         margin: 10px;
-        left: 50%;
-        margin-left: -100px;
-        position: relative;
     }
 }
 /* /MINIMAL WIDTH */
