@@ -1,0 +1,109 @@
+body,
+html {
+    font-family: "Myriad Pro Regular", sans-serif;
+}
+
+#header {
+    width: 100%;
+    transition: background ease-out 0.2s;
+    background: linear-gradient(to bottom, #30354b, var(--dark-blue_bg));
+}
+
+#header .navbar-collapse {
+    width: auto;
+}
+
+.navbar {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#logo-header {
+    margin-right: 10%;
+}
+
+#header .nav-link {
+    font-size: larger;
+    font-weight: 600;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: solid 2px transparent;
+}
+
+#header nav ul li a {
+    color: var(--light-graw_gn);
+}
+
+#header nav ul li:first-child a {
+    color: var(--orange_gn);
+}
+
+#header .nav-link:hover {
+    border-bottom: solid 2px var(--orange_gn);
+    color: var(--cinza-escuri_gn);
+}
+
+#introduction {
+    padding-bottom: 50px;
+}
+
+#introduction h1 {
+    font-size: 5em;
+    font-weight: 900;
+    color: var(--white_gn);
+    line-height: 1;    
+}
+
+#introduction h4 {
+    color: var(--orange_gn);
+}
+
+#introduction p {
+    font-size: 1.2em;
+    color: var(--light-graw_gn);
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-body h2 {
+    color: var(--white_gn);
+    font-weight: bold;
+}
+
+.card-body h5 {
+    color: var(--light-graw_gn);
+}
+
+.card-primary {
+    background-color: var(--light-graw_discord);
+}
+
+.card-outline {
+    background-color: transparent;
+    border: solid 2px var(--light-graw_discord);
+}
+
+#cta-video {
+    background-color: var(--dark-blue_bg);
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 4px;
+}
+
+#cta-video img {
+    width: 15px;
+    fill: green;
+}
+
+#lottie-comunidade {
+    background-color: transparent;
+    width: 105%;
+    height: 105%;
+    margin-top: -8%;
+    margin-left: -8%;
+}
