@@ -1,15 +1,69 @@
-/* MIN WIDTH */
-@media (min-width: 992px) {
+/* LARGE WIDTH */
+@media (min-width: 1200px) {
     #header nav-link {
         margin-left: 20px;
         margin-right: 20px;
     }
-}
 
-/* MAX MEDIUM */
-@media (max-width: 991.98px) {
+    #lottie-comunidade {
+        background-color: transparent;
+        width: 110%;
+        height: 110%;
+        margin-top: -12%;
+        margin-left: -9%;
+    }
+}
+/* /LARGE WIDTH */
+
+
+/* MEDIUM WIDTH */
+@media (max-width: 1199px) {
     #header .navbar-collapse {
         width: 100%;
         text-align: right;
     }
+
+    #lottie-comunidade {
+        background-color: transparent;
+        width: 100%;
+        height: 100%;
+    }
+
+    .card {
+        width: 54%;
+        margin: 0 auto;
+    }
 }
+/* /MEDIUM WIDTH */
+
+
+/* MIN WIDTH */
+@media (max-width: 991px) {
+    .card {
+        width: 100%;
+    }
+}
+/* /MIN WIDTH */
+
+
+/* MINIMAL WIDTH */
+@media (max-width: 991px) {
+    .card {
+        width: 100%;
+    }
+
+    .card-body {
+        text-align: center;
+    }
+
+    #video-discord {
+        width: 40%;
+        height: 90px;
+        border-radius: 8px;
+        margin: 10px;
+        left: 50%;
+        margin-left: -100px;
+        position: relative;
+    }
+}
+/* /MINIMAL WIDTH */

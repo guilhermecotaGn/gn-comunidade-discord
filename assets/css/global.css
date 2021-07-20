@@ -2,7 +2,7 @@
     text-transform: uppercase;
     font-weight: 500;
     padding: 0.9em 1.5em;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .button .icon {
@@ -18,4 +18,23 @@
 .button-primary:hover {
     background-color: var(--dark-blue_discord);
     border-color: var(--dark-blue_discord);
+}
+
+.card {
+    border-radius: 8px;
+}
+
+.card-body h3 {
+    color: var(--white_gn);
+    font-weight: bold;
+    font-size: 3vh;
+    padding: 0;
+    margin: 0;
+}
+
+.card-body h5 {
+    color: var(--light-graw_gn);
+    font-size: 2vh;
+    padding: 0;
+    margin: 0;
 }
