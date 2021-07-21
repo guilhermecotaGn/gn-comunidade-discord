@@ -17,6 +17,7 @@ html {
     padding: 40px 0 40px 0;
 }
 
+
 #logo-header {
     margin-right: 10%;
 }
@@ -41,11 +42,45 @@ html {
 
 #header .nav-link:hover {
     border-bottom: solid 2px var(--orange_gn);
-    color: var(--cinza-escuri_gn);
+    color: #c5d1e9;
 }
 
 #introduction {
     padding-bottom: 80px;
+}
+
+
+.button-primary-discord {
+    color: var(--white_gn);
+    background-color: var(--blue_discord);
+    border-color: var(--blue_discord);
+}
+
+.button-primary-discord:hover {
+    background-color: var(--dark-blue_discord);
+    border-color: var(--dark-blue_discord);
+}
+
+.button-primary-gn {
+    color: var(--white_gn);
+    background-color: var(--blue_gn);
+    border-color: var(--blue_gn);
+}
+
+.button-primary-gn:hover {
+    background-color: #10a2b3;
+    border-color: #10a2b3;
+}
+
+.button-outline-gn {
+    color: var(--light-graw_gn);
+    border-color: var(--light-graw_gn);
+}
+
+.button-outline-gn:hover {
+    color: var(--light-graw_gn);
+    background-color: #232935;
+    border-color: var(--light-graw_gn);
 }
 
 .card-primary {
@@ -123,10 +158,28 @@ p {
     background-color: #29303e;
 }
 
+#documentarion h4 {
+    color: var(--blue_gn);
+}
+
 #doc-image {
     transition: background ease-out 0.2s;
     background-color: var(--blue_gn);
     border-top-left-radius: 50%;
+}
+
+.thumbnail-wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+.thumbnail-wrapper button {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
 }
 
 #doc-image img {

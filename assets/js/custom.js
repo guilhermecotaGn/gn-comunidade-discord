@@ -1,37 +1,17 @@
-/**
- * Script para player do vídeo do youtube
- */
-var tag = document.createElement('script');
-tag.src = "https://www.youtube.com/iframe_api";
-var firstScriptTag = document.getElementsByTagName('script')[0];
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+var members = document.getElementById('members');
+var suporte_team = document.getElementById('suporte-team');
+var duration = 1500; // 5 segundos
 
-var player;
-function onYouTubeIframeAPIReady() {
-    player = new YT.Player('video-discord', {
-        videoId: 'EYIrTEYOTmc',
-        events: {
-            'onStateChange': onPlayerStateChange,
-        }
-    });
+// Community member counter
+for (var i = 1; i <= 1500; i++) {
+    setTimeout(function (nr) {
+        members.innerHTML =  "+" + nr;
+    }, i * duration / 1500, i);
 }
 
-function onPlayerReady(event) {
-    event.target.playVideo();
-    
+// Technical support member counter
+for (var i = 1; i <= 10; i++) {
+    setTimeout(function (nr) {
+        suporte_team.innerHTML =  "+" + nr;
+    }, i * duration / 10, i);
 }
-
-var done = false;
-function onPlayerStateChange(event) {
-    if (event.data == YT.PlayerState.PLAYING && !done) {
-        setTimeout(stopVideo, 6000);
-        done = true;
-    }
-}
-
-function stopVideo() {
-    player.stopVideo();
-}
-/**
- * Fim - Scripts para player do vídeo do youtube
- */

@@ -20,7 +20,7 @@
     <div id="header">
         <div class="container">
             <!-- MENU -->
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-dark">
                 <a id="logo-header" class="navbar-brand" href="#">
                     <img src="./assets/img/logo-gerencianet-api.svg" alt="logo Gerencianet" class="img-fluid">
                 </a>
@@ -34,10 +34,10 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Nossa comunidade</a>
+                            <a class="nav-link" href="#mission">Nossa comunidade</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Documentação</a>
+                            <a class="nav-link" href="#documentarion">Documentação</a>
                         </li>
                     </ul>
                 </div>
@@ -65,7 +65,7 @@
                                     </div>
                                     <div class="col-lg-7 col-md-7 align-self-center">
                                         <div class="card-body">
-                                            <button type="button" class="btn btn-primary button button-primary">
+                                            <button type="button" class="btn btn-primary button button-primary-discord">
                                                 <img class="icon" src="./assets/img/logo-discord.svg"
                                                     alt="Logo Discord">
                                                 Conectar no Discord
@@ -78,7 +78,6 @@
                             <div class="card mb-3 align-center card-outline">
                                 <div class="row g-0">
                                     <div class="col-lg-4 col-md-5 align-self-center">
-                                        <!-- <div id="video-discord"></div> -->
                                         <iframe id="video-discord" src="https://www.youtube.com/embed/EYIrTEYOTmc"
                                             title="YouTube video player" frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -97,7 +96,7 @@
                         </div>
                         <div class="col-xl-6">
                             <lottie-player id="lottie-comunidade"
-                                src="https://assets2.lottiefiles.com/private_files/lf30_3s09vdwd.json" speed="1" loop
+                                src="./assets/lottiefiles/lottie-comunidade.json" speed="1" loop
                                 autoplay>
                             </lottie-player>
                         </div>
@@ -142,12 +141,12 @@
                 </div>
                 <div class="col-md-2 border-l">
                     <h3>Membros</h3>
-                    <span>+1500</span>
+                    <span id="members"></span>
                     <p>Membros ativos e apoiadores</p>
                 </div>
                 <div class="col-md-2 border-l">
                     <h3>Suporte Team</h3>
-                    <span>+10</span>
+                    <span id="suporte-team"></span>
                     <p>Devs exclusivos da Gerencianet para te ajudar</p>
                 </div>
                 <div class="col-md-4 border-l">
@@ -172,14 +171,14 @@
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
                         printer took a galley of type and scrambled it to make a type specimen book.</p>
 
-                    <button type="button" class="btn btn-primary button button-primary">
-                        <img class="icon" src="./assets/img/logo-discord.svg" alt="Logo Discord">
+                    <a href="https://gerencianet.com.br/api" type="button" target="_blank" class="btn btn-primary button button-primary-gn">
+                        <img class="icon" src="./assets/img/logo-gerencianet.svg" alt="Logo Gerencianet">
                         Documentação técnica
-                    </button>
-                    <button type="button" class="btn btn-primary button button-primary">
-                        <img class="icon" src="./assets/img/logo-discord.svg" alt="Logo Discord">
+                    </a>
+                    <a href="https://www.youtube.com/c/GerencianetBr" type="button" target="_blank" class="btn btn-outline-primary button button-outline-gn">
+                        <img class="icon" src="./assets/img/play-button.svg" alt="Logo Discord">
                         Canal no Youtube
-                    </button>
+                    </a>
                 </div>
                 <div class="col-md-6" id="doc-image">
                     <img src="./assets/img/documentacao.svg" alt="Documentação técnica Gerencianet">
@@ -195,9 +194,15 @@
         <!-- DEVS -->
         <div id="devs">
             <div class="container">
-                <lottie-player src="https://assets6.lottiefiles.com/private_files/lf30_wg6cvpsj.json" speed="1" loop
-                    autoplay>
-                </lottie-player>
+                <div class="thumbnail-wrapper">
+                    <lottie-player src="./assets/lottiefiles/devs.json" speed="1" loop
+                        autoplay>
+                    </lottie-player>
+                    <button type="button" class="btn btn-primary button button-primary-discord">
+                        <img class="icon" src="./assets/img/logo-discord.svg" alt="Logo Discord">
+                        Conectar no Discord
+                    </button>
+                </div>
             </div>
         </div>
         <!-- /DEVS -->

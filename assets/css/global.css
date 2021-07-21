@@ -41,16 +41,6 @@ span {
     margin-right: 5px;
 }
 
-.button-primary {
-    background-color: var(--blue_discord);
-    border-color: var(--blue_discord);
-}
-
-.button-primary:hover {
-    background-color: var(--dark-blue_discord);
-    border-color: var(--dark-blue_discord);
-}
-
 .card {
     border-radius: 8px;
 }
