@@ -1,6 +1,6 @@
 h1 {
     font-size: 8vh;
-    font-weight: 900;
+    font-weight: bold;
     color: var(--white_gn);
     line-height: 1;
 }
@@ -20,6 +20,7 @@ h4 {
 
 p {
     font-size: 2vh;
+    font-weight: 500;
     color: var(--light-graw_gn);
 }
 
