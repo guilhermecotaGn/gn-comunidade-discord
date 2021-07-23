@@ -1,6 +1,6 @@
 var members = document.getElementById('members');
 var suporte_team = document.getElementById('suporte-team');
-var duration = 1500; // 5 segundos
+var duration = 2500; // 5 segundos
 
 // Community member counter
 for (var i = 1; i <= 1500; i++) {

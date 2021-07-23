@@ -1,6 +1,6 @@
 body,
 html {
-    font-family: "Myriad Pro Regular", sans-serif;
+    font-family: "Red Hat Display";
 }
 
 #header {
@@ -21,6 +21,7 @@ html {
 #logo-header {
     margin-right: 10%;
 }
+
 
 #header .nav-link {
     font-size: larger;
@@ -48,7 +49,6 @@ html {
 #introduction {
     padding-bottom: 80px;
 }
-
 
 .button-primary-discord {
     color: var(--white_gn);
