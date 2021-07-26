@@ -42,7 +42,7 @@
 }
 
 #introducao {
-    padding: 20px 0 120px 0;
+    padding: 20px 0 140px 0;
 }
 
 .button-primary-discord {
@@ -175,7 +175,7 @@ p {
 #doc-image {
     transition: background ease-out 0.2s;
     background-color: var(--blue_gn);
-    border-top-left-radius: 50%;
+    border-top-left-radius: 300px;
 }
 
 #doc-image img {
