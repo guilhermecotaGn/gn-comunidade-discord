@@ -1,0 +1,8 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="13" height="13">
+	<title>play-icon-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #8b96ab } 
+	</style>
+	<path id="Layer" fill-rule="evenodd" class="shp0" d="M504 256C504 393 393 504 256 504C119 504 8 393 8 256C8 119 119 8 256 8C393 8 504 119 504 256ZM371.7 238L195.7 131C179.8 122.2 160 133.6 160 152L160 360C160 378.5 179.9 389.8 195.7 381L371.7 280C388.1 270.9 388.1 247.2 371.7 238Z" />
+</svg>

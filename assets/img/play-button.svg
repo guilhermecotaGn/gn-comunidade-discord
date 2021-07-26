@@ -1,8 +1,0 @@
-<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 409 409" width="20" height="20">
-	<title>play-button-svg</title>
-	<style>
-		tspan { white-space:pre }
-		.shp0 { fill: #8b96aa } 
-	</style>
-	<path id="Layer" fill-rule="evenodd" class="shp0" d="M408.22 204.11C408.22 316.84 316.84 408.22 204.11 408.22C91.39 408.22 0 316.84 0 204.11C0 91.39 91.39 0 204.11 0C316.84 0 408.22 91.39 408.22 204.11ZM286.55 194.65L160.18 122.19C143.18 112.44 129.4 120.41 129.4 140.01L129.4 284.61C129.4 304.2 143.18 312.19 160.18 302.44L286.55 229.97C303.55 220.22 303.55 204.4 286.55 194.65Z" />
-</svg>

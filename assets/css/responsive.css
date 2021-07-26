@@ -1,19 +1,38 @@
+@media (min-width: 1566px) {
+    #lottie-comunidade {
+        background-color: transparent;
+        width: 115%;
+        height: 115%;
+        margin-top: -20%;
+        margin-left: -10%;
+    }
+}
+
+
 /* LARGE WIDTH */
 @media (min-width: 1200px) {
-    #header nav-link {
-        margin-left: 20px;
-        margin-right: 20px;
+    #logo-header {
+        margin-right: 120px;
     }
 
     #lottie-comunidade {
         background-color: transparent;
         width: 110%;
         height: 110%;
-        margin-top: -8%;
-        margin-left: -9%;
+        margin-top: -15%;
+        margin-left: -10%;
     }
 
-    #mission-description {
+    .navbar {
+        padding: 65px 0 65px 0;
+    }
+
+    #header nav-link {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #descricao-nossa-comunidade {
         padding: 40px 0 0 40px;
     }
 }
@@ -22,15 +41,12 @@
 
 /* MEDIUM WIDTH */
 @media (max-width: 1199px) {
-    #header .navbar-collapse {
-        width: 100%;
-        text-align: right;
+    .navbar {
+        padding: 65px 0 65px 0;
     }
 
-    #lottie-comunidade {
-        background-color: transparent;
-        width: 100%;
-        height: 100%;
+    #logo-header {
+        margin-right: 120px;
     }
 
     .card {
@@ -38,19 +54,29 @@
         margin: 0 auto;
     }
 
-    #mission-description {
+    #descricao-nossa-comunidade {
         padding: 20px 0 0 20px;
     }
 }
+
 /* /MEDIUM WIDTH */
 
 
 /* MIN WIDTH */
 @media (max-width: 991px) {
+    #header .navbar-collapse {
+        background: var(--dark-blue_bg) 0% 0% no-repeat padding-box;
+        border-radius: 8px;
+        margin: 15px 0;
+        padding: 15px 0;
+        width: 100%;
+    }
+
     .card {
         width: 100%;
     }
 }
+
 /* /MIN WIDTH */
 
 
@@ -71,8 +97,20 @@
         margin: 10px;
     }
 
-    #mission-description {
+    #descricao-nossa-comunidade {
         padding: 0;
     }
+
+    #rodape ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    #copyright {
+        margin: 10px 0 10px 0;
+    }
 }
+
 /* /MINIMAL WIDTH */
