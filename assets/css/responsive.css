@@ -1,116 +1,107 @@
-@media (min-width: 1566px) {
-    #lottie-comunidade {
-        background-color: transparent;
-        width: 115%;
-        height: 115%;
-        margin-top: -20%;
-        margin-left: -10%;
-    }
-}
+/*
+X-Small	                None	    <576px
+Small	                sm	        ≥576px
+Medium	                md	        ≥768px
+Large	                lg	        ≥992px
+Extra large	            xl	        ≥1200px
+Extra extra large       xxl	        ≥1400px
+*/
 
 
-/* LARGE WIDTH */
+/*
+ * X-Large devices (large desktops, >=1200px)
+ */
 @media (min-width: 1200px) {
+
+    .bloco {
+        padding-bottom: 100px;
+    }
+
+    /*
+     * HEADER 
+     */
+    .navbar {
+        padding: 65px 0 65px 0;
+    }
+
     #logo-header {
         margin-right: 120px;
     }
 
+    /* /HEADER */
+
+
+    /*
+     * INTRODUÇÃO 
+     */
     #lottie-comunidade {
         background-color: transparent;
         width: 110%;
         height: 110%;
         margin-top: -15%;
-        margin-left: -10%;
+        margin-left: -11%;
     }
 
-    .navbar {
-        padding: 65px 0 65px 0;
+    /* /INTRODUÇÃO */
+
+
+    /*
+     * NOSSA-COMUNIDADE 
+     */
+
+    /* /NOSSA-COMUNIDADE */
+
+
+    /*
+     * ESTATÍSTICAS
+     */
+
+    /* /ESTATÍSTICAS */
+
+
+    /*
+     * DOCUMENTAÇÃO
+     */
+    #documentacao :first-child a {
+        margin-right: 10px;
     }
 
-    #header nav-link {
-        margin-left: 20px;
-        margin-right: 20px;
+    #doc-image {
+        border-top-left-radius: 300px;
+        min-height: 700px;
     }
 
-    #descricao-nossa-comunidade {
-        padding: 40px 0 0 40px;
-    }
-}
-/* /LARGE WIDTH */
-
-
-/* MEDIUM WIDTH */
-@media (max-width: 1199px) {
-    .navbar {
-        padding: 65px 0 65px 0;
-    }
-
-    #logo-header {
-        margin-right: 120px;
-    }
-
-    .card {
-        width: 54%;
-        margin: 0 auto;
-    }
-
-    #descricao-nossa-comunidade {
-        padding: 20px 0 0 20px;
-    }
-}
-
-/* /MEDIUM WIDTH */
-
-
-/* MIN WIDTH */
-@media (max-width: 991px) {
-    #header .navbar-collapse {
-        background: var(--dark-blue_bg) 0% 0% no-repeat padding-box;
-        border-radius: 8px;
-        margin: 15px 0;
-        padding: 15px 0;
-        width: 100%;
-    }
-
-    .card {
-        width: 100%;
-    }
-}
-
-/* /MIN WIDTH */
-
-
-/* MINIMAL WIDTH */
-@media (max-width: 767px) {
-    .card {
-        width: 100%;
-    }
-
-    .card-body {
+    #doc-image img {
+        position: relative;
+        top: 12%;
         text-align: center;
     }
 
-    #video-discord {
-        width: 95%;
-        height: 120px;
-        border-radius: 8px;
-        margin: 10px;
-    }
 
-    #descricao-nossa-comunidade {
-        padding: 0;
-    }
+    /* /DOCUMENTAÇÃO */
 
-    #rodape ul {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-    }
 
-    #copyright {
-        margin: 10px 0 10px 0;
-    }
+
+    /*
+     * DEVS
+     */
+
+    /* /DEVS */
+
+
+
+    /*
+     * RODAPÉ
+     */
+
+    /* /RODAPÉ */
+
+
 }
 
-/* /MINIMAL WIDTH */
+
+@media (max-width: 1399px) {
+    #documentacao :first-child a {
+        margin-top: 10px;
+    }
+}

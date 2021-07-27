@@ -1,13 +1,28 @@
+/*
+ * Família tipográfica Red Hat Display
+ */
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
+    /*
+     * Paleta de cores Gerencianet
+     */
     --orange_gn: #f37021;
-    --blue_gn: #00bbce;
-    --dark-graw_gn: #414042;
-    --light-graw_gn: #8B96AA;
     --white_gn: #ffffff;
+
+    --blue_gn: #00bbce;
+    --dark_blue_gn: #0da8b9;
+
+    --grey_gn: #8B96AB;
+    --dark-grey_gn: #414042;
+
+    /*
+     * Paleta de cores Discord
+     */
     --blue_discord: #5865F2;
     --dark-blue_discord: #4d59d4;
-    --light-graw_discord: #31364e;
-    --dark-blue_bg: #1E2130;
+
+    --dark-gray_bg: #29303E;
+    --dark-blue_bg: #1E2130;    
+
 }

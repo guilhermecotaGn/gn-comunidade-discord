@@ -1,13 +1,16 @@
+/* 
+ * Tipografia
+ */
 body,
 html {
     font-family: "Red Hat Display";
+    letter-spacing: 0px;
 }
 
 h1 {
     font-size: 25px;
     font-weight: medium;
     color: var(--orange_gn);
-    letter-spacing: 0px;
     line-height: 1;
 }
 
@@ -15,45 +18,47 @@ h2 {
     font-size: 84px;
     font-weight: bold;
     color: var(--white_gn);
-    letter-spacing: 0px;
     line-height: 1;
-    padding: 8px 0 8px 0;
+    margin: 15px 0 15px 0;
 }
 
 h3 {
     font-size: 30px;
     font-weight: bold;
     color: var(--white_gn);
-    letter-spacing: 0px;
 }
 
 h4 {
     font-size: 20px;
     font-weight: bold;
-    color: var(--light-graw_gn);
-    letter-spacing: 0px;
+    color: var(--grey_gn);
 }
 
 h5 {
     font-size: 20px;
     font-weight: bold;
-    color: var(--light-graw_gn);
-    letter-spacing: 0px;
+    color: var(--grey_gn);
 }
 
 p {
     font-size: 18px;
     font-weight: 500;
-    color: var(--light-graw_gn);
-    letter-spacing: 0px;
+    color: var(--grey_gn);
+    margin: 30px 0 30px 0;
 }
 
+/* /Tipografia */
 
+
+/* 
+ * Botões
+ */
 .button {
     border-radius: 8px;
-    padding: 20px 25px;
+    padding: 20px 15px;
     height: 66px;
     text-transform: uppercase;
+    text-align: left;
     font-size: 15px;
     font-weight: 500;
     letter-spacing: 0.89px;
@@ -63,10 +68,73 @@ p {
     margin-right: 15px;
 }
 
+.button-primary-discord {
+    color: var(--white_gn);
+    background-color: var(--blue_discord);
+    border-color: var(--blue_discord);
+}
+
+.button-primary-discord:hover {
+    background-color: var(--dark-blue_discord);
+    border-color: var(--dark-blue_discord);
+}
+
+.button-primary-gn {
+    color: var(--white_gn);
+    background-color: var(--blue_gn);
+    border-color: var(--blue_gn);
+}
+
+.button-primary-gn:hover {
+    background-color: var(--dark_blue_gn);
+    border-color: var(--dark_blue_gn);
+}
+
+.button-outline-gn {
+    color: var(--grey_gn);
+    border-color: var(--grey_gn);
+}
+
+.button-outline-gn:hover {
+    color: var(--grey_gn);
+    background-color: #232935;
+    border-color: var(--grey_gn);
+}
+
+/* /Botões */
+
+
+/* 
+ * Cards
+ */
 .card {
     border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.card-primary {
+    background-color: var(--dark-gray_bg);
+}
+
+.card-outline {
+    background-color: transparent;
+    border: solid 2px var(--dark-gray_bg);
+}
+
+/* /Cards */
+
+.img-zoom:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .border-l {
     border-left: solid 1px #8b96aa2f;
+}
+
+.animation {
+    pointer-events: none;
 }

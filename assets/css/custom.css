@@ -1,6 +1,9 @@
+/*
+ *HEADER 
+ */
 #header {
     width: 100%;
-    background: transparent linear-gradient(176deg, #29303E 0%, #120F23 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(176deg, var(--dark-gray_bg) 0%, #120F23 100%) 0% 0% no-repeat padding-box;
 }
 
 #header .navbar-collapse {
@@ -8,93 +11,42 @@
 }
 
 #header .nav-link {
-    font-size: larger;
-    font-weight: 600;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 20px;
-    margin-right: 20px;
+    font: normal normal bold 18px/31px "Red Hat Display";
+    margin: 0 22px 0 22px;
     border-bottom: solid 2px transparent;
+    color: var(--grey_gn);
 }
 
-#header nav ul li a {
-    color: var(--light-graw_gn);
+#header .nav-link:hover {
+    border-bottom: solid 2px var(--orange_gn);
+    color: var(--grey_gn);
 }
 
 #header nav ul li:first-child a {
     color: var(--orange_gn);
 }
 
-#header .nav-link:hover {
-    border-bottom: solid 2px var(--orange_gn);
-    color: #c5d1e9;
-}
+/* /HEADER */
 
-.animation {
-    pointer-events: none;
-}
 
+
+/*
+ * INTRODUÇÃO 
+ */
 #lottie-comunidade {
     background-color: transparent;
-    width: 90%;
-    height: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
-#introducao {
-    padding: 20px 0 140px 0;
-}
-
-.button-primary-discord {
-    color: var(--white_gn);
-    background-color: var(--blue_discord);
-    border-color: var(--blue_discord);
-}
-
-.button-primary-discord:hover {
-    background-color: var(--dark-blue_discord);
-    border-color: var(--dark-blue_discord);
-}
-
-.button-primary-gn {
-    color: var(--white_gn);
-    background-color: var(--blue_gn);
-    border-color: var(--blue_gn);
-}
-
-.button-primary-gn:hover {
-    background-color: #10a2b3;
-    border-color: #10a2b3;
-}
-
-.button-outline-gn {
-    color: var(--light-graw_gn);
-    border-color: var(--light-graw_gn);
-}
-
-.button-outline-gn:hover {
-    color: var(--light-graw_gn);
-    background-color: #232935;
-    border-color: var(--light-graw_gn);
-}
-
-.card-primary {
-    background-color: var(--light-graw_discord);
-}
-
-.card-outline {
-    background-color: transparent;
-    border: solid 2px var(--light-graw_discord);
-}
-
 #cta-video {
-    background-color: #0D0D1D;
-    color: #8B96AB;
-    border-radius: 20px;
-    text-transform: uppercase;
     font-size: 12px;
     font-weight: medium;
+    text-transform: uppercase;
     padding: 2px 5px;
+    color: var(--grey_gn);
+    background-color: #0D0D1D;
+    border-radius: 20px;
     vertical-align: middle;
     display: table-cell;
     text-decoration: none;
@@ -114,10 +66,21 @@
 
 #video-discord {
     vertical-align: middle;
-    width: 80%;
-    height: 90px;
-    border-radius: 8px;
-    margin: 10px;
+    width: 147px;
+    height: 93px;
+    border-radius: 6px;
+    margin: 15px;
+}
+
+/* /INTRODUÇÃO */
+
+
+/*
+ * NOSSA-COMUNIDADE 
+ */
+#nossa-comunidade {
+    width: 100%;
+    background: var(--dark-gray_bg) 0% 0% no-repeat padding-box;
 }
 
 #widget-discord {
@@ -126,30 +89,15 @@
     margin-top: -40px;
 }
 
-#nossa-comunidade {
-    padding-bottom: 80px;
-    width: 100%;
-    transition: background ease-out 0.2s;
-    background: #29303E 0% 0% no-repeat padding-box;
-}
+/* /NOSSA-COMUNIDADE  */
 
-#descricao-nossa-comunidade h3,
-p {
-    margin-bottom: 30px;
-}
 
-#stacks img,
-#linguagens-programacao img {
-    width: 55px;
-    height: 55px;
-}
-
+/*
+ * ESTATÍSTICAS
+ */
 #estatisticas {
-    padding-bottom: 80px;
-    padding-top: 50px;
     width: 100%;
-    transition: background ease-out 0.2s;
-    background-color: #29303e;
+    background-color: var(--dark-gray_bg);
 }
 
 #membros,
@@ -160,12 +108,21 @@ p {
     letter-spacing: 0px;
 }
 
+/* /ESTATÍSTICAS  */
+
+#stacks img,
+#linguagens-programacao img {
+    width: 55px;
+    height: 55px;
+}
+
+
+/*
+ * DOCUMENTAÇÃO
+ */
 #documentacao {
-    padding-bottom: 80px;
-    padding-top: 50px;
     width: 100%;
-    transition: background ease-out 0.2s;
-    background-color: #29303e;
+    background-color: var(--dark-gray_bg);
 }
 
 #documentacao h1 {
@@ -173,23 +130,26 @@ p {
 }
 
 #doc-image {
-    transition: background ease-out 0.2s;
-    background-color: var(--blue_gn);
-    border-top-left-radius: 300px;
+    background-color: var(--blue_gn);    
 }
 
 #doc-image img {
     width: 80%;
-    margin: 40px;
+    margin: 50px;
 }
 
+/* /DOCUMENTAÇÃO  */
+
+
+/*
+ * DEVS
+ */
 #img-wrapper {
     position: relative;
 }
 
 #lottie-devs {
-    width: 100%;
-    height: auto;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -205,14 +165,18 @@ p {
 .img-overlay:before {
     content: ' ';
     display: block;
-    /* adjust 'height' to position overlay content vertically */
     height: 50%;
 }
 
+/* /DEVS  */
+
+
+/*
+ * RODAPÉ
+ */
 #rodape {
     width: 100%;
-    transition: background ease-out 0.2s;
-    background: linear-gradient(to bottom, #29303e, #120F23);
+    background: linear-gradient(to bottom, var(--dark-gray_bg), #120F23);
 }
 
 #rodape ul {
@@ -237,21 +201,14 @@ p {
     justify-content: center;
     align-items: center;
     background-color: transparent;
-    transition: all ease-out 0.2s;
-}
-
-#rodape ul li a img:hover {
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
-footer {
-    padding: 40px 0 80px 0;
 }
 
 #copyright {
-    color: var(--light-graw_gn);
+    color: var(--grey_gn);
 }
+
+footer {
+    padding: 50px 0;
+}
+
+/* /RODAPÉ  */

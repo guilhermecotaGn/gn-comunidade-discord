@@ -1,7 +1,7 @@
 /**
  * Verifica se a sessão #estatisticas está visível, para iniciar a contagem dos membros
  */
-var sessionStatisticas = document.querySelector("#estatisticas");
+var sessaoEtatisticas = document.querySelector("#estatisticas");
 var exibido = false;
 
 function estaVisivel(el) {
@@ -20,23 +20,23 @@ function estaVisivel(el) {
 
 document.addEventListener('scroll', () => {
     if (!exibido) {
-        if (estaVisivel(sessionStatisticas)) {
-            var membros = document.getElementById('membros');
-            var suporte_team = document.getElementById('time-suporte');
-            var duration = 2000; // 5 segundos
+        if (estaVisivel(sessaoEtatisticas)) {
+            var membrosComunidade = document.getElementById('membros');
+            var membrosSuporte = document.getElementById('time-suporte');
+            var duracao = 2000;
 
             // Contador de membros da comunidade
             for (var i = 1; i <= 1500; i++) {
                 setTimeout(function (nr) {
-                    membros.innerHTML = "+" + nr;
-                }, i * duration / 1500, i);
+                    membrosComunidade.innerHTML = "+" + nr;
+                }, i * duracao / 1500, i);
             }
 
             // Contador de membros da Consultoria Técnica
             for (var i = 1; i <= 10; i++) {
                 setTimeout(function (nr) {
-                    suporte_team.innerHTML = "+" + nr;
-                }, i * duration / 10, i);
+                    membrosSuporte.innerHTML = "+" + nr;
+                }, i * duracao / 10, i);
             }
 
             exibido = true;

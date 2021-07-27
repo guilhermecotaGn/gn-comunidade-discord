@@ -18,7 +18,7 @@
 
 <body>
     <!-- HEADER -->
-    <div id="header">
+    <div id="header" class="bloco">
         <div class="container">
             <!-- MENU -->
             <nav class="navbar navbar-expand-lg navbar-dark">
@@ -47,16 +47,16 @@
 
             <!-- INTRODUÇÃO -->
             <section id="introducao">
-                <div class="container-xxl">
+                <div class="container">
                     <div class="row">
-                        <div class="col-xl-6 align-self-center">
+                        <div class="col-6 align-self-center">
                             <h1>Nossa comunidade no Discord</h1>
                             <h2>Venha que nós te ajudamos!</h2>
-                            <p class="mt-4 mb-4">Tem dúvidas em como integrar as API's da Gerencianet ao seu sistema?
+                            <p>Tem dúvidas em como integrar as API's da Gerencianet ao seu sistema?
                                 Nossa comunidade
                                 pode te auxiliar, além disso, temos uma equipe sempre dispostar a te ajudar.</p>
 
-                            <div class="card mb-3 card-primary">
+                            <div class="card card-primary">
                                 <div class="row g-0">
                                     <div class="col-lg-5 col-md-5 align-self-center">
                                         <div class="card-body">
@@ -76,18 +76,16 @@
                                 </div>
                             </div>
 
-                            <div class="card mb-3 align-center card-outline">
+                            <div class="card align-center card-outline">
                                 <div class="row g-0">
                                     <div class="col-lg-4 col-md-5 align-self-center">
-                                        <a id="video-discord" data-fancybox
-                                            href="https://youtu.be/EYIrTEYOTmc"><img
+                                        <a id="video-discord" data-fancybox href="https://youtu.be/EYIrTEYOTmc"><img
                                                 src="./assets/img/capa-video-comunidade.png"></a>
                                     </div>
                                     <div class="col-lg-8 col-md-7 align-self-center">
                                         <div class="card-body">
                                             <h4 class="card-title" id="tutorial-discord">Tutorial</h4>
-                                            <a id="cta-video" data-fancybox
-                                                href="https://youtu.be/EYIrTEYOTmc"><img
+                                            <a id="cta-video" data-fancybox href="https://youtu.be/EYIrTEYOTmc"><img
                                                     src="./assets/img/play-icon.svg">Assista ao vídeo</a>
                                             <h3>Como acessar o Discord?</h3>
                                         </div>
@@ -95,7 +93,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-6 animation">
+                        <div class="col-6 animation">
                             <lottie-player id="lottie-comunidade" src="./assets/lottiefiles/lottie-comunidade.json"
                                 speed="1" loop autoplay>
                             </lottie-player>
@@ -110,7 +108,7 @@
 
 
     <!-- NOSSA-COMUNIDADE -->
-    <section id="nossa-comunidade">
+    <section id="nossa-comunidade" class="bloco">
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
@@ -118,41 +116,66 @@
                         allowtransparency="true" frameborder="0"
                         sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                 </div>
-                <div id="descricao-nossa-comunidade" class="col-md-5">
+                <div id="descricao-nossa-comunidade" class="col-md-5 align-self-center">
                     <h3>Nossa missão é te ajudar a integrar nossa API ao seu sistema!</h3>
                     <p>Não importa sua stack, aqui encontramos a ajuda que você precisa para integrar com seu projeto.
                     </p>
                     <div id="stacks">
                         <div class="row row-cols-12 row-cols-lg-5">
                             <div class="col mb-3">
-                                <img src="./assets/img/stacks/item1.svg">
+                                <a href="https://github.com/gerencianet/gn-api-woocommerce" target="_blank">
+                                    <img class="img-zoom" src="./assets/img/stacks/item1.svg"
+                                        alt="Módulo WordPress para WooCommerce">
+                                </a>
                             </div>
                             <div class="col mb-3">
-                                <img src="./assets/img/stacks/item2.svg">
+                                <a href="https://github.com/gerencianet/gn-api-opencart" target="_blank">
+                                    <img class="img-zoom" src="./assets/img/stacks/item2.svg" alt="Módulo OpenCart">
+                                </a>
                             </div>
                             <div class="col mb-3">
-                                <img src="./assets/img/stacks/item3.svg">
+                                <a href="https://github.com/gerencianet/gn-api-magento2" target="_blank">
+                                    <img class="img-zoom" src="./assets/img/stacks/item3.svg" alt="Módulo Magento 2">
+                                </a>
                             </div>
                             <div class="col mb-3">
-                                <img src="./assets/img/stacks/item4.svg">
+                                <a href="https://github.com/gerencianet/gn-api-whmcs" target="_blank">
+                                    <img class="img-zoom" src="./assets/img/stacks/item4.svg" alt="Módulo WHMCS">
+                                </a>
                             </div>
                             <div class="col mb-3">
-                                <img src="./assets/img/stacks/item5.svg">
+                                <a href="https://github.com/gerencianet/gn-api-prestashop" target="_blank">
+                                    <img class="img-zoom" src="./assets/img/stacks/item5.svg" alt="Módulo PrestaShop">
+                                </a>
                             </div>
                             <div class="col mb-3">
-                                <img src="./assets/img/stacks/item6.svg">
+                                <a href="https://github.com/gerencianet/gn-api-virtuemart" target="_blank">
+                                    <img class="img-zoom" src="./assets/img/stacks/item6.svg"
+                                        alt="Módulo Joomla para VirtueMart">
+                                </a>
                             </div>
                             <div class="col mb-3">
-                                <img src="./assets/img/stacks/item7.svg">
+                                <a href="https://github.com/gerencianet/gn-api-boxbilling" target="_blank">
+                                    <img class="img-zoom" src="./assets/img/stacks/item7.svg" alt="Módulo BoxBilling">
+                                </a>
                             </div>
                             <div class="col mb-3">
-                                <img src="./assets/img/stacks/item8.svg">
+                                <a href="https://github.com/gerencianet/gn-api-sdk-flutter-examples" target="_blank">
+                                    <img class="img-zoom" src="./assets/img/stacks/item8.svg"
+                                        alt="SDK em Flutter integrado Gerencianet">
+                                </a>
                             </div>
                             <div class="col mb-3">
-                                <img src="./assets/img/stacks/item9.svg">
+                                <a href="https://github.com/gerencianet/gn-api-sdk-laravel" target="_blank">
+                                    <img class="img-zoom" src="./assets/img/stacks/item9.svg"
+                                        alt="SDK para Laravel Gerencianet">
+                                </a>
                             </div>
                             <div class="col mb-3">
-                                <img src="./assets/img/stacks/item10.svg">
+                                <a href="https://dev.gerencianet.com.br/docs/modulos-plugins" target="_blank">
+                                    <img class="img-zoom" src="./assets/img/stacks/item10.svg"
+                                        alt="Módulos e plugins Gerencianet">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -164,41 +187,71 @@
 
 
     <!-- ESTATÍSTICAS -->
-    <section id="estatisticas">
+    <section id="estatisticas" class="bloco">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 align-self-center">
                     <div id="linguagens-programacao">
                         <div class="row row-cols-12 row-cols-lg-5">
                             <div class="col mb-3">
-                                <img src="./assets/img/stacks/linguagem1.svg">
+                                <a href="https://github.com/gerencianet/gn-api-sdk-php" target="_blank">
+                                    <img class="img-zoom" src="./assets/img/stacks/linguagem1.svg"
+                                        alt="SDK PHP Gerencianet">
+                                </a>
                             </div>
                             <div class="col mb-3">
-                                <img src="./assets/img/stacks/linguagem2.svg">
+                                <a href="https://github.com/gerencianet/gn-api-sdk-node" target="_blank">
+                                    <img class="img-zoom" src="./assets/img/stacks/linguagem2.svg"
+                                        alt="SDK NodeJS Gerencianet">
+                                </a>
                             </div>
                             <div class="col mb-3">
-                                <img src="./assets/img/stacks/linguagem3.svg">
+                                <a href="https://github.com/gerencianet/gn-api-sdk-python" target="_blank">
+                                    <img class="img-zoom" src="./assets/img/stacks/linguagem3.svg"
+                                        alt="SDK Python Gerencianet">
+                                </a>
                             </div>
                             <div class="col mb-3">
-                                <img src="./assets/img/stacks/linguagem4.svg">
+                                <a href="https://github.com/gerencianet/gn-api-sdk-java" target="_blank">
+                                    <img class="img-zoom" src="./assets/img/stacks/linguagem4.svg"
+                                        alt="SDK Java Gerencianet">
+                                </a>
                             </div>
                             <div class="col mb-3">
-                                <img src="./assets/img/stacks/linguagem5.svg">
+                                <a href="https://github.com/gerencianet/gn-api-sdk-typescript" target="_blank">
+                                    <img class="img-zoom" src="./assets/img/stacks/linguagem5.svg"
+                                        alt="SDK TypeScript Gerencianet">
+                                </a>
                             </div>
                             <div class="col mb-3">
-                                <img src="./assets/img/stacks/linguagem6.svg">
+                                <a href="https://github.com/gerencianet/gn-api-sdk-dotnet-core" target="_blank">
+                                    <img class="img-zoom" src="./assets/img/stacks/linguagem6.svg"
+                                        alt="SDK C#/dotNet Gerencianet">
+                                </a>
                             </div>
                             <div class="col mb-3">
-                                <img src="./assets/img/stacks/linguagem7.svg">
+                                <a href="#" target="_blank">
+                                    <img class="img-zoom" src="./assets/img/stacks/linguagem7.svg"
+                                        alt="SDK iOS Gerencianet">
+                                </a>
                             </div>
                             <div class="col mb-3">
-                                <img src="./assets/img/stacks/linguagem8.svg">
+                                <a href="https://github.com/gerencianet/gn-api-sdk-ruby" target="_blank">
+                                    <img class="img-zoom" src="./assets/img/stacks/linguagem8.svg"
+                                        alt="SDK  Gerencianet">
+                                </a>
                             </div>
                             <div class="col mb-3">
-                                <img src="./assets/img/stacks/linguagem9.svg">
+                                <a href="" target="_blank">
+                                    <img class="img-zoom" src="./assets/img/stacks/linguagem9.svg"
+                                        alt="SDK  Gerencianet">
+                                </a>
                             </div>
                             <div class="col mb-3">
-                                <img src="./assets/img/stacks/linguagem-more.svg">
+                                <a href="https://github.com/gerencianet" target="_blank">
+                                    <img class="img-zoom" src="./assets/img/stacks/linguagem-more.svg"
+                                        alt="SDK iOS Gerencianet">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -215,7 +268,7 @@
                 </div>
                 <div class="col-md-4 border-l">
                     <h3>Venha fazer parte!</h3>
-                    <p class="mt-5">Com humildade para aprender e altruísmo para compartilhar seu conhecimento, você
+                    <p>Com humildade para aprender e altruísmo para compartilhar seu conhecimento, você
                         fará parte de
                         uma comunidade muito colaborativa!</p>
                 </div>
@@ -226,10 +279,10 @@
 
 
     <!-- DOCUMENTAÇÃO -->
-    <section id="documentacao">
+    <section id="documentacao" class="bloco">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div id="descricao-documentacao" class="col-md-6 align-self-center">
                     <h1>Nossa documentação técnica</h1>
                     <h2>Como realizar a integração</h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -291,27 +344,28 @@
                         <ul>
                             <li>
                                 <a href="https://www.youtube.com/c/GerencianetBr" target="_blank">
-                                    <img src="./assets/img/youtube.svg" alt="YouTube Gerencianet" />
+                                    <img class="img-zoom" src="./assets/img/youtube.svg" alt="YouTube Gerencianet" />
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.facebook.com/Gerencianet" target="_blank">
-                                    <img src="./assets/img/facebook.svg" alt="Facebook Gerencianet" />
+                                    <img class="img-zoom" src="./assets/img/facebook.svg" alt="Facebook Gerencianet" />
                                 </a>
                             </li>
                             <li>
                                 <a href="https://twitter.com/gerencianet" target="_blank">
-                                    <img src="./assets/img/twitter.svg" alt="Twitter Gerencianet" />
+                                    <img class="img-zoom" src="./assets/img/twitter.svg" alt="Twitter Gerencianet" />
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.instagram.com/gerencianet" target="_blank">
-                                    <img src="./assets/img/instagram.svg" alt="Instagram Gerencianet" />
+                                    <img class="img-zoom" src="./assets/img/instagram.svg"
+                                        alt="Instagram Gerencianet" />
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/company/gerencianet/" target="_blank">
-                                    <img src="./assets/img/linkedin.svg" alt="Linkedin Gerencianet" />
+                                    <img class="img-zoom" src="./assets/img/linkedin.svg" alt="Linkedin Gerencianet" />
                                 </a>
                             </li>
                         </ul>
