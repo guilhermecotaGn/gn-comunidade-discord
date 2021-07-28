@@ -49,12 +49,14 @@
             <section id="introducao">
                 <div class="container">
                     <div class="row">
-                        <div class="col-6 align-self-center">
-                            <h1>Nossa comunidade no Discord</h1>
-                            <h2>Venha que nós te ajudamos!</h2>
-                            <p>Tem dúvidas em como integrar as API's da Gerencianet ao seu sistema?
-                                Nossa comunidade
-                                pode te auxiliar, além disso, temos uma equipe sempre dispostar a te ajudar.</p>
+                        <div class="col-6 col-lg-12 col-xl-6 align-self-center">
+                            <div id="descricao-introducao">
+                                <h1>Nossa comunidade no Discord</h1>
+                                <h2>Venha que nós te ajudamos!</h2>
+                                <p>Tem dúvidas em como integrar as API's da Gerencianet ao seu sistema?
+                                    Nossa comunidade
+                                    pode te auxiliar, além disso, temos uma equipe sempre dispostar a te ajudar.</p>
+                            </div>
 
                             <div class="card card-primary">
                                 <div class="row g-0">
@@ -64,7 +66,7 @@
                                             <h3>Comunidade</h3>
                                         </div>
                                     </div>
-                                    <div class="col-lg-7 col-md-7 align-self-center">
+                                    <div class="col-lg-7 col-md-7 align-self-center text-center">
                                         <div class="card-body">
                                             <a type="button" class="btn btn-primary button button-primary-discord"
                                                 href="https://discord.gg/ptGHMtczcV" target="_blank">
@@ -93,7 +95,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 animation">
+                        <div class="col-6 col-lg-12 col-xl-6 animation">
                             <lottie-player id="lottie-comunidade" src="./assets/lottiefiles/lottie-comunidade.json"
                                 speed="1" loop autoplay>
                             </lottie-player>
@@ -111,17 +113,19 @@
     <section id="nossa-comunidade" class="bloco">
         <div class="container">
             <div class="row">
-                <div class="col-md-7">
+                <div class="col-7 col-lg-12 col-xl-7">
                     <iframe id="widget-discord" src="https://discord.com/widget?id=775322853884821504&theme=dark"
                         allowtransparency="true" frameborder="0"
                         sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                 </div>
-                <div id="descricao-nossa-comunidade" class="col-md-5 align-self-center">
-                    <h3>Nossa missão é te ajudar a integrar nossa API ao seu sistema!</h3>
-                    <p>Não importa sua stack, aqui encontramos a ajuda que você precisa para integrar com seu projeto.
-                    </p>
+                <div class="col-5 col-lg-12 col-xl-5 align-self-center">
+                    <div id="descricao-nossa-comunidade">
+                        <h3>Nossa missão é te ajudar a integrar nossa API ao seu sistema!</h3>
+                        <p>Não importa sua stack, aqui encontramos a ajuda que você precisa para integrar com seu
+                            projeto.</p>
+                    </div>
                     <div id="stacks">
-                        <div class="row row-cols-12 row-cols-lg-5">
+                        <div class="row row-cols-12 row-cols-xl-5">
                             <div class="col mb-3">
                                 <a href="https://github.com/gerencianet/gn-api-woocommerce" target="_blank">
                                     <img class="img-zoom" src="./assets/img/stacks/item1.svg"
@@ -190,9 +194,10 @@
     <section id="estatisticas" class="bloco">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 align-self-center">
+                <!-- col-lg-12 col-xl-7 -->
+                <div class="col-12 col-xl-4 order-xl-1 order-4 align-self-center">
                     <div id="linguagens-programacao">
-                        <div class="row row-cols-12 row-cols-lg-5">
+                        <div class="row row-cols-12 row-cols-xl-5">
                             <div class="col mb-3">
                                 <a href="https://github.com/gerencianet/gn-api-sdk-php" target="_blank">
                                     <img class="img-zoom" src="./assets/img/stacks/linguagem1.svg"
@@ -256,17 +261,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 text-center border-l">
+                <div id="border-membros" class="col-3 col-xl-2 order-xl-2 order-1 text-center border-l">
                     <h3>Membros</h3>
                     <span id="membros">+1500</span>
                     <h5>Membros ativos e apoiadores</h5>
                 </div>
-                <div class="col-md-2 text-center border-l">
+                <div class="col-4 col-xl-2 order-xl-3 order-2 text-center border-l">
                     <h3>Suporte Team</h3>
                     <span id="time-suporte">+10</span>
                     <h5>Devs exclusivos da Gerencianet para te ajudar</h5>
                 </div>
-                <div class="col-md-4 border-l">
+                <div class="col-5 col-xl-4 order-xl-4 order-3 border-l">
                     <h3>Venha fazer parte!</h3>
                     <p>Com humildade para aprender e altruísmo para compartilhar seu conhecimento, você
                         fará parte de
@@ -282,25 +287,30 @@
     <section id="documentacao" class="bloco">
         <div class="container">
             <div class="row">
-                <div id="descricao-documentacao" class="col-md-6 align-self-center">
-                    <h1>Nossa documentação técnica</h1>
-                    <h2>Como realizar a integração</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                        printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <div class="col-6 col-lg-12 col-xl-6 order-xl-1 order-2 align-self-center">
+                    <div id="descricao-documentacao">
+                        <h1>Nossa documentação técnica</h1>
+                        <h2>Como realizar a integração</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown
+                            printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
 
-                    <a href="https://gerencianet.com.br/api" type="button" target="_blank"
-                        class="btn btn-primary button button-primary-gn">
-                        <img class="icon" src="./assets/img/gerencianet-btn.svg" alt="Logo Gerencianet">
-                        Documentação técnica
-                    </a>
-                    <a href="https://www.youtube.com/c/GerencianetBr" type="button" target="_blank"
-                        class="btn btn-outline-primary button button-outline-gn">
-                        <img class="icon" src="./assets/img/youtube-btn.svg" alt="Logo YouTube">
-                        Canal no Youtube
-                    </a>
+                    <div id="botoes-documentacao">
+                        <a href="https://gerencianet.com.br/api" type="button" target="_blank"
+                            class="btn btn-primary button button-primary-gn">
+                            <img class="icon" src="./assets/img/gerencianet-btn.svg" alt="Logo Gerencianet">
+                            Documentação técnica
+                        </a>
+                        <a href="https://www.youtube.com/c/GerencianetBr" type="button" target="_blank"
+                            class="btn btn-outline-primary button button-outline-gn">
+                            <img class="icon" src="./assets/img/youtube-btn.svg" alt="Logo YouTube">
+                            Canal no Youtube
+                        </a>
+                    </div>
                 </div>
-                <div class="col-md-6" id="doc-image">
+                <div class="col-6 col-lg-12 col-xl-6 text-center order-xl-2 order-1" id="doc-image">
                     <img src="./assets/img/doc-image.svg" alt="Documentação técnica Gerencianet">
                 </div>
             </div>
@@ -333,14 +343,14 @@
         <footer>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 align-self-center text-md-left text-center">
+                    <div class="col-md-3 align-self-center text-md-left text-center">
                         <img src="./assets/img/gerencianet-footer.svg" alt="logo Gerencianet" class="img-fluid">
                     </div>
-                    <div id="copyright" class="col-md-4 text-md-right text-center">
-                        © 2007-<span id="year"></span> Gerencianet. Todos os direitos reservados.
+                    <div id="copyright" class="col-md-6 text-md-right text-center">
+                        © 2007-<span id="year"></span> Gerencianet. Todos os direitos reservados.<br>
                         Gerencianet S.A. CNPJ: 09.089.356/0001-18
                     </div>
-                    <div class="col-md-4 align-self-center text-md-right text-center">
+                    <div class="col-md-3 align-self-center text-md-right text-center">
                         <ul>
                             <li>
                                 <a href="https://www.youtube.com/c/GerencianetBr" target="_blank">

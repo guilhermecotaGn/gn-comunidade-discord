@@ -85,7 +85,9 @@
 
 #widget-discord {
     width: 100%;
+    padding: 0 20px 0 20px;
     min-height: 450px;
+    margin: 0 auto;
     margin-top: -40px;
 }
 

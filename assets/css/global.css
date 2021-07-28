@@ -113,12 +113,13 @@ p {
 }
 
 .card-primary {
-    background-color: var(--dark-gray_bg);
+    background: transparent linear-gradient(187deg, #2F3141 0%, #24263A 100%) 0% 0% no-repeat padding-box;
 }
 
 .card-outline {
-    background-color: transparent;
+    background: #191929 0% 0% no-repeat padding-box;
     border: solid 2px var(--dark-gray_bg);
+    border: 1px solid #3F3F4B;
 }
 
 /* /Cards */

@@ -36,8 +36,8 @@ Extra extra large       xxl	        ≥1400px
      */
     #lottie-comunidade {
         background-color: transparent;
-        width: 110%;
-        height: 110%;
+        width: 109%;
+        height: 109%;
         margin-top: -15%;
         margin-left: -11%;
     }
@@ -67,6 +67,7 @@ Extra extra large       xxl	        ≥1400px
     }
 
     #doc-image {
+        border-radius: 8px;
         border-top-left-radius: 300px;
         min-height: 700px;
     }
@@ -104,4 +105,131 @@ Extra extra large       xxl	        ≥1400px
     #documentacao :first-child a {
         margin-top: 10px;
     }
+}
+
+
+/*
+ * X-Large devices (medium tablets, >= 992px and <= 1199px)
+ */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .bloco {
+        padding-bottom: 65px;
+    }
+
+    /*
+     * HEADER 
+     */
+    #header {
+        padding-bottom: 0;
+    }
+
+    .navbar {
+        padding: 65px 0 65px 0;
+    }
+
+    #logo-header {
+        margin-right: 120px;
+    }
+
+    /* /HEADER */
+
+
+    /*
+     * INTRODUÇÃO 
+     */
+    #descricao-introducao {
+        text-align: center;
+    }
+
+    .card {
+        width: 620px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    #lottie-comunidade {
+        background-color: transparent;
+        width: 90%;
+        height: 90%;
+        text-align: center;
+    }
+
+    /* /INTRODUÇÃO */
+
+
+    /*
+     * NOSSA-COMUNIDADE 
+     */
+    #descricao-nossa-comunidade {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    #descricao-nossa-comunidade p {
+        margin: 0px 0 30px 0;
+    }
+
+    /* /NOSSA-COMUNIDADE */
+
+
+    /*
+     * ESTATÍSTICAS
+     */
+    #linguagens-programacao {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #border-membros {
+        border-left: 0px ;
+    }
+
+    /* /ESTATÍSTICAS */
+
+
+    /*
+     * DOCUMENTAÇÃO
+     */
+    #descricao-documentacao {
+        text-align: center;
+    }
+
+    #botoes-documentacao {
+        text-align: center;
+    }
+
+    #documentacao :first-child a {
+        margin-right: 10px;
+    }
+
+    #doc-image {
+        margin-bottom: 60px;
+        border-radius: 8px;
+    }
+
+    #doc-image img {
+        width: 350px;
+    }
+
+
+    /* /DOCUMENTAÇÃO */
+
+
+
+    /*
+     * DEVS
+     */
+
+    /* /DEVS */
+
+
+
+    /*
+     * RODAPÉ
+     */
+
+    /* /RODAPÉ */
+
+
 }
