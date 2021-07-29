@@ -26,14 +26,12 @@ Extra large	            xl	        ≥1200px
     #logo-header {
         margin-right: 120px;
     }
-
     /* /HEADER */
 
 
     /*
      * INTRODUÇÃO 
      */
-
     #video-discord img {
         width: 95%;
         margin: 0 auto;
@@ -48,7 +46,6 @@ Extra large	            xl	        ≥1200px
         margin-top: -15%;
         margin-left: -11%;
     }
-
     /* /INTRODUÇÃO */
 
 
@@ -70,7 +67,6 @@ Extra large	            xl	        ≥1200px
         top: 12%;
         text-align: center;
     }
-
     /* /DOCUMENTAÇÃO */
 
 }
@@ -106,7 +102,6 @@ Extra large	            xl	        ≥1200px
     #logo-header {
         margin-right: 120px;
     }
-
     /* /HEADER */
 
 
@@ -132,7 +127,6 @@ Extra large	            xl	        ≥1200px
         height: 90%;
         text-align: center;
     }
-
     /* /INTRODUÇÃO */
 
 
@@ -147,7 +141,6 @@ Extra large	            xl	        ≥1200px
     #descricao-nossa-comunidade p {
         margin: 0px 0 30px 0;
     }
-
     /* /NOSSA-COMUNIDADE */
 
 
@@ -167,7 +160,6 @@ Extra large	            xl	        ≥1200px
     .borda-custom :nth-child(2) {
         border-left: solid 1px #8b96aa2f;
     }
-
     /* /ESTATÍSTICAS */
 
 
@@ -194,25 +186,9 @@ Extra large	            xl	        ≥1200px
     #doc-image img {
         width: 350px;
     }
-
-
     /* /DOCUMENTAÇÃO */
 
 
-
-    /*
-     * DEVS
-     */
-
-    /* /DEVS */
-
-
-
-    /*
-     * RODAPÉ
-     */
-
-    /* /RODAPÉ */
 }
 
 
@@ -239,7 +215,6 @@ Extra large	            xl	        ≥1200px
     .navbar {
         padding: 30px 0;
     }
-
     /* /HEADER */
 
 
@@ -266,7 +241,6 @@ Extra large	            xl	        ≥1200px
         height: 100%;
         text-align: center;
     }
-
     /* /INTRODUÇÃO */
 
 
@@ -285,7 +259,6 @@ Extra large	            xl	        ≥1200px
     #stacks {
         text-align: center;
     }
-
     /* /NOSSA-COMUNIDADE */
 
 
@@ -306,7 +279,6 @@ Extra large	            xl	        ≥1200px
     #borda-convite {
         margin-top: 30px;
     }
-
     /* /ESTATÍSTICAS */
 
 
@@ -340,31 +312,18 @@ Extra large	            xl	        ≥1200px
     #doc-image img {
         width: 350px;
     }
-
-
     /* /DOCUMENTAÇÃO */
-
-
-
-    /*
-     * DEVS
-     */
-
-    /* /DEVS */
-
 
 
     /*
      * RODAPÉ
      */
-
     #rodape ul {
         margin: 0;
         padding: 0;
         display: flex;
         justify-content: center;
     }
-
     /* /RODAPÉ */
 }
 
@@ -415,19 +374,16 @@ Extra large	            xl	        ≥1200px
         margin-right: 0;
         width: 210px;
     }
-    
 
     .navbar {
         padding: 30px 0;
     }
-
     /* /HEADER */
 
 
     /*
      * INTRODUÇÃO 
      */
-
     .card {
         width: 100%;
         margin: 0 auto;
@@ -460,7 +416,6 @@ Extra large	            xl	        ≥1200px
         text-align: center;
         padding-bottom: 20px;
     }
-
     /* /INTRODUÇÃO */
 
 
@@ -479,7 +434,6 @@ Extra large	            xl	        ≥1200px
     #stacks {
         text-align: center;
     }
-
     /* /NOSSA-COMUNIDADE */
 
 
@@ -501,7 +455,6 @@ Extra large	            xl	        ≥1200px
     #borda-suporte {
         margin-bottom: 55px;
     }
-
     /* /ESTATÍSTICAS */
 
 
@@ -528,8 +481,6 @@ Extra large	            xl	        ≥1200px
     #doc-image img {
         width: 50%;
     }
-
-
     /* /DOCUMENTAÇÃO */
 
 
@@ -545,7 +496,6 @@ Extra large	            xl	        ≥1200px
     .img-overlay {
         top: 120px;
     }
-
     /* /DEVS */
 
 
@@ -553,7 +503,6 @@ Extra large	            xl	        ≥1200px
     /*
      * RODAPÉ
      */
-
     #rodape ul {
         margin: 0;
         padding: 0;
@@ -564,6 +513,5 @@ Extra large	            xl	        ≥1200px
     #copyright {
         margin: 15px 0 15px 0;
     }
-
     /* /RODAPÉ */
 }

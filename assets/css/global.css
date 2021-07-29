@@ -45,7 +45,6 @@ p {
     font-weight: 500;
     color: var(--grey_gn);
 }
-
 /* /Tipografia */
 
 
@@ -99,7 +98,6 @@ p {
     background-color: #232935;
     border-color: var(--grey_gn);
 }
-
 /* /Botões */
 
 
@@ -134,3 +132,4 @@ p {
 .animation {
     pointer-events: none;
 }
+/* /Cards */
