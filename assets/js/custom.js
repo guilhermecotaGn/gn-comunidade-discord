@@ -1,14 +1,13 @@
 /*
  * Random Lottie files de animação
  */
-
-window.onload = function () {
+function animacaoAleatoria() {
     var lottieFiles = ['team1.json', 'team2.json']; // possíveis lottie files
     var index = Math.floor(Math.random() * lottieFiles.length);
-    
+
     var divAnimacaoHeader = document.getElementById("header-team");
     var divAnimacaoFooter = document.getElementById("footer-team");
-    
+
     // Header team
     var animacaoHeader = document.createElement("lottie-player");
     animacaoHeader.setAttribute('id', 'lottie-comunidade');
@@ -28,6 +27,16 @@ window.onload = function () {
     divAnimacaoFooter.appendChild(animacaoFooter);
 }
 
+window.onload = function () {
+    animacaoAleatoria();
+}
+
+
+setInterval(() => {
+    document.getElementById("header-team").innerHTML = "";
+    document.getElementById("footer-team").innerHTML = "";
+    animacaoAleatoria();
+}, 60000);
 
 /**
  * Verifica se a sessão #estatisticas está visível, para iniciar a contagem dos membros
