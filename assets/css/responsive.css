@@ -78,7 +78,7 @@ Extra large	            xl	        ≥1200px
 
 @media (max-width: 1399px) {
     #documentacao :first-child a {
-        margin-top: 10px;
+        margin-top: 15px;
     }
 }
 
@@ -159,9 +159,14 @@ Extra large	            xl	        ≥1200px
         margin-top: 30px;
     }
 
-    /* #border-membros {
+    #borda-linguagens,
+    #borda-membros {
         border-left: 0px;
-    } */
+    }
+
+    .borda-custom :nth-child(2) {
+        border-left: solid 1px #8b96aa2f;
+    }
 
     /* /ESTATÍSTICAS */
 
@@ -292,9 +297,15 @@ Extra large	            xl	        ≥1200px
         margin-top: 30px;
     }
 
-    /* #border-membros {
+    #borda-linguagens,
+    #borda-membros,
+    #borda-convite {
         border-left: 0px;
-    } */
+    }
+
+    #borda-convite {
+        margin-top: 30px;
+    }
 
     /* /ESTATÍSTICAS */
 
@@ -400,6 +411,12 @@ Extra large	            xl	        ≥1200px
         width: 100%;
     }
 
+    #logo-header img {
+        margin-right: 0;
+        width: 210px;
+    }
+    
+
     .navbar {
         padding: 30px 0;
     }
@@ -471,7 +488,18 @@ Extra large	            xl	        ≥1200px
      */
     #linguagens-programacao {
         text-align: center;
-        margin-top: 30px;
+    }
+
+    #borda-linguagens,
+    #borda-membros,
+    #borda-suporte,
+    #borda-convite {
+        border-left: 0px;
+    }
+
+    #borda-membros,
+    #borda-suporte {
+        margin-bottom: 55px;
     }
 
     /* /ESTATÍSTICAS */
@@ -512,6 +540,10 @@ Extra large	            xl	        ≥1200px
     .img-overlay .button {
         max-width: 300px;
         text-align: center;
+    }
+
+    .img-overlay {
+        top: 120px;
     }
 
     /* /DEVS */

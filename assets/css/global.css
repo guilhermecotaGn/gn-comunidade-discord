@@ -44,7 +44,6 @@ p {
     font-size: 18px;
     font-weight: 500;
     color: var(--grey_gn);
-    margin: 30px 0 30px 0;
 }
 
 /* /Tipografia */
@@ -131,10 +130,6 @@ p {
     -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
-
-/* .border-l {
-    border-left: solid 1px #8b96aa2f;
-} */
 
 .animation {
     pointer-events: none;

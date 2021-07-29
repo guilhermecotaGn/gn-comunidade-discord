@@ -110,6 +110,12 @@
     letter-spacing: 0px;
 }
 
+#borda-membros,
+#borda-suporte,
+#borda-convite {
+    border-left: solid 1px #8b96aa2f;
+}
+
 /* /ESTATÍSTICAS  */
 
 #stacks img,
@@ -132,7 +138,7 @@
 }
 
 #doc-image {
-    background-color: var(--blue_gn);    
+    background-color: var(--blue_gn);
 }
 
 #doc-image img {

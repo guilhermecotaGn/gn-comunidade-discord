@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
 
     <title>Comunidade Discord - API Gerencianet</title>
+    <link rel="icon" type="image/png" href="./assets/img/favicon-16x16.png"/>
 </head>
 
 <body>
@@ -117,8 +118,7 @@
             <div class="row">
                 <div class="col-12 col-lg-12 col-xl-7">
                     <iframe id="widget-discord" src="https://discord.com/widget?id=775322853884821504&theme=dark"
-                        allowtransparency="true" frameborder="0"
-                        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                        allowtransparency="true" frameborder="0"></iframe>
                 </div>
                 <div class="col-12 col-lg-12 col-xl-5 align-self-center">
                     <div class="text-center text-xl-start" id="descricao-nossa-comunidade">
@@ -197,7 +197,7 @@
         <div class="container">
             <div class="row">
                 <!-- col-lg-12 col-xl-7 -->
-                <div class="col-12 col-md-12 col-lg-12 col-xl-4 order-xl-1 order-4 align-self-center">
+                <div id="borda-linguagens" class="col-12 col-md-12 col-lg-12 col-xl-4 order-xl-1 order-4 align-self-center">
                     <div id="linguagens-programacao">
                         <div class="row row-cols-12 row-cols-xl-5">
                             <div class="col mb-3">
@@ -263,17 +263,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3 col-xl-2 order-xl-2 order-1 text-center">
+                <div id="borda-membros" class="col-12 col-md-6 col-lg-3 col-xl-2 order-xl-2 order-1 text-center">
                     <h3>Membros</h3>
                     <span id="membros">+1500</span>
                     <h5>Membros ativos e apoiadores</h5>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3 col-xl-2 order-xl-3 order-2 text-center">
+                <div id="borda-suporte" class="col-12 col-md-6 col-lg-3 col-xl-2 order-xl-3 order-2 text-center">
                     <h3>Suporte Team</h3>
                     <span id="time-suporte">+10</span>
                     <h5>Devs exclusivos da Gerencianet para te ajudar</h5>
                 </div>
-                <div class="col-12 col-md-12 col-lg-6 col-xl-4 order-xl-4 order-3 text-center text-lg-start">
+                <div id="borda-convite" class="col-12 col-md-12 col-lg-6 col-xl-4 order-xl-4 order-3 text-center text-lg-start">
                     <h3>Venha fazer parte!</h3>
                     <p>Com humildade para aprender e altruísmo para compartilhar seu conhecimento, você
                         fará parte de
