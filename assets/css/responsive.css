@@ -1,10 +1,9 @@
 /*
-X-Small	                None	    <576px
-Small	                sm	        ≥576px
-Medium	                md	        ≥768px
+BREACKPOINTS:
+Small	                sm	        <=767px
+Medium	                md	        <=991px
 Large	                lg	        ≥992px
 Extra large	            xl	        ≥1200px
-Extra extra large       xxl	        ≥1400px
 */
 
 
@@ -21,7 +20,7 @@ Extra extra large       xxl	        ≥1400px
      * HEADER 
      */
     .navbar {
-        padding: 65px 0 65px 0;
+        padding: 65px 0;
     }
 
     #logo-header {
@@ -34,6 +33,14 @@ Extra extra large       xxl	        ≥1400px
     /*
      * INTRODUÇÃO 
      */
+
+    #video-discord img {
+        width: 95%;
+        margin: 0 auto;
+        border-radius: 6px;
+        margin: 15px 0;
+    }
+
     #lottie-comunidade {
         background-color: transparent;
         width: 109%;
@@ -43,20 +50,6 @@ Extra extra large       xxl	        ≥1400px
     }
 
     /* /INTRODUÇÃO */
-
-
-    /*
-     * NOSSA-COMUNIDADE 
-     */
-
-    /* /NOSSA-COMUNIDADE */
-
-
-    /*
-     * ESTATÍSTICAS
-     */
-
-    /* /ESTATÍSTICAS */
 
 
     /*
@@ -78,25 +71,7 @@ Extra extra large       xxl	        ≥1400px
         text-align: center;
     }
 
-
     /* /DOCUMENTAÇÃO */
-
-
-
-    /*
-     * DEVS
-     */
-
-    /* /DEVS */
-
-
-
-    /*
-     * RODAPÉ
-     */
-
-    /* /RODAPÉ */
-
 
 }
 
@@ -125,7 +100,7 @@ Extra extra large       xxl	        ≥1400px
     }
 
     .navbar {
-        padding: 65px 0 65px 0;
+        padding: 65px 0;
     }
 
     #logo-header {
@@ -138,14 +113,17 @@ Extra extra large       xxl	        ≥1400px
     /*
      * INTRODUÇÃO 
      */
-    #descricao-introducao {
-        text-align: center;
-    }
-
     .card {
         width: 620px;
         margin: 0 auto;
         margin-bottom: 20px;
+    }
+
+    #video-discord img {
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 6px;
+        margin: 15px 0;
     }
 
     #lottie-comunidade {
@@ -181,9 +159,9 @@ Extra extra large       xxl	        ≥1400px
         margin-top: 30px;
     }
 
-    #border-membros {
-        border-left: 0px ;
-    }
+    /* #border-membros {
+        border-left: 0px;
+    } */
 
     /* /ESTATÍSTICAS */
 
@@ -230,6 +208,330 @@ Extra extra large       xxl	        ≥1400px
      */
 
     /* /RODAPÉ */
+}
 
 
+/*
+ * Medium devices (Medium phones, width >= 768px and <= 991px )
+ */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .bloco {
+        padding-bottom: 65px;
+    }
+
+    /*
+     * HEADER 
+     */
+    #header .navbar-collapse {
+        background: var(--dark-blue_bg) 0% 0% no-repeat padding-box;
+        border-radius: 8px;
+        margin: 15px 0;
+        padding: 15px 0;
+        width: 100%;
+    }
+
+    .navbar {
+        padding: 30px 0;
+    }
+
+    /* /HEADER */
+
+
+    /*
+     * INTRODUÇÃO 
+     */
+
+    .card {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    #video-discord img {
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 6px;
+        margin: 15px;
+    }
+
+    #lottie-comunidade {
+        background-color: transparent;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    /* /INTRODUÇÃO */
+
+
+    /*
+     * NOSSA-COMUNIDADE 
+     */
+    #descricao-nossa-comunidade {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    #descricao-nossa-comunidade p {
+        margin: 0px 0 30px 0;
+    }
+
+    #stacks {
+        text-align: center;
+    }
+
+    /* /NOSSA-COMUNIDADE */
+
+
+    /*
+     * ESTATÍSTICAS
+     */
+    #linguagens-programacao {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    /* #border-membros {
+        border-left: 0px;
+    } */
+
+    /* /ESTATÍSTICAS */
+
+
+    #stacks img,
+    #linguagens-programacao img {
+        width: 45px;
+        height: 45px;
+    }
+
+
+    /*
+     * DOCUMENTAÇÃO
+     */
+    #descricao-documentacao {
+        text-align: center;
+    }
+
+    #botoes-documentacao {
+        text-align: center;
+    }
+
+    #documentacao :first-child a {
+        margin-right: 10px;
+    }
+
+    #doc-image {
+        margin-bottom: 60px;
+        border-radius: 8px;
+    }
+
+    #doc-image img {
+        width: 350px;
+    }
+
+
+    /* /DOCUMENTAÇÃO */
+
+
+
+    /*
+     * DEVS
+     */
+
+    /* /DEVS */
+
+
+
+    /*
+     * RODAPÉ
+     */
+
+    #rodape ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* /RODAPÉ */
+}
+
+
+
+/*
+ * Small devices (Small phones, < 767px)
+ */
+@media (max-width: 767px) {
+
+    h1 {
+        font-size: 20px;
+        font-weight: medium;
+        color: var(--orange_gn);
+        line-height: 1;
+    }
+
+    h2 {
+        font-size: 40px;
+        font-weight: bold;
+        color: var(--white_gn);
+        line-height: 1;
+        margin: 15px 0 15px 0;
+    }
+
+    h5 {
+        font-size: 18px;
+        font-weight: bold;
+        color: var(--grey_gn);
+    }
+
+    .bloco {
+        padding-bottom: 50px;
+    }
+
+    /*
+     * HEADER 
+     */
+    #header .navbar-collapse {
+        background: var(--dark-blue_bg) 0% 0% no-repeat padding-box;
+        border-radius: 8px;
+        margin: 15px 0;
+        padding: 15px 0;
+        width: 100%;
+    }
+
+    .navbar {
+        padding: 30px 0;
+    }
+
+    /* /HEADER */
+
+
+    /*
+     * INTRODUÇÃO 
+     */
+
+    .card {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .card-body {
+        text-align: center;
+    }
+
+    .button {
+        width: 100%;
+        text-align: center;
+    }
+
+    #video-discord img {
+        width: 94%;
+        margin-top: 10px;
+        border-radius: 6px;
+    }
+
+    #acesso-discord {
+        font-size: 22px;
+    }
+
+    #lottie-comunidade {
+        background-color: transparent;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    /* /INTRODUÇÃO */
+
+
+    /*
+     * NOSSA-COMUNIDADE 
+     */
+    #descricao-nossa-comunidade {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    #descricao-nossa-comunidade p {
+        margin: 0px 0 30px 0;
+    }
+
+    #stacks {
+        text-align: center;
+    }
+
+    /* /NOSSA-COMUNIDADE */
+
+
+    /*
+     * ESTATÍSTICAS
+     */
+    #linguagens-programacao {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    /* /ESTATÍSTICAS */
+
+
+    /*
+     * DOCUMENTAÇÃO
+     */
+    #descricao-documentacao {
+        text-align: center;
+    }
+
+    #botoes-documentacao {
+        text-align: center;
+    }
+
+    #documentacao :first-child a {
+        margin-right: 10px;
+    }
+
+    #doc-image {
+        margin-bottom: 60px;
+        border-radius: 8px;
+    }
+
+    #doc-image img {
+        width: 50%;
+    }
+
+
+    /* /DOCUMENTAÇÃO */
+
+
+
+    /*
+     * DEVS
+     */
+    .img-overlay .button {
+        max-width: 300px;
+        text-align: center;
+    }
+
+    /* /DEVS */
+
+
+
+    /*
+     * RODAPÉ
+     */
+
+    #rodape ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    #copyright {
+        margin: 15px 0 15px 0;
+    }
+
+    /* /RODAPÉ */
 }

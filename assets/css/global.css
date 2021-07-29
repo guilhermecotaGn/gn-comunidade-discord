@@ -132,9 +132,9 @@ p {
     transform: scale(1.1);
 }
 
-.border-l {
+/* .border-l {
     border-left: solid 1px #8b96aa2f;
-}
+} */
 
 .animation {
     pointer-events: none;
