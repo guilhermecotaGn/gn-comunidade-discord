@@ -1,3 +1,34 @@
+/*
+ * Random Lottie files de animação
+ */
+
+window.onload = function () {
+    var lottieFiles = ['team1.json', 'team2.json']; // possíveis lottie files
+    var index = Math.floor(Math.random() * lottieFiles.length);
+    
+    var divAnimacaoHeader = document.getElementById("header-team");
+    var divAnimacaoFooter = document.getElementById("footer-team");
+    
+    // Header team
+    var animacaoHeader = document.createElement("lottie-player");
+    animacaoHeader.setAttribute('id', 'lottie-comunidade');
+    animacaoHeader.setAttribute('src', './assets/lottiefiles/header-' + lottieFiles[index]);
+    animacaoHeader.setAttribute('speed', '1');
+    animacaoHeader.setAttribute('loop', '');
+    animacaoHeader.setAttribute('autoplay', '');
+    divAnimacaoHeader.appendChild(animacaoHeader);
+
+    // Footer team
+    var animacaoFooter = document.createElement("lottie-player");
+    animacaoFooter.setAttribute('id', 'lottie-devs');
+    animacaoFooter.setAttribute('src', './assets/lottiefiles/footer-' + lottieFiles[index]);
+    animacaoFooter.setAttribute('speed', '1');
+    animacaoFooter.setAttribute('loop', '');
+    animacaoFooter.setAttribute('autoplay', '');
+    divAnimacaoFooter.appendChild(animacaoFooter);
+}
+
+
 /**
  * Verifica se a sessão #estatisticas está visível, para iniciar a contagem dos membros
  */
@@ -50,4 +81,4 @@ document.addEventListener('scroll', () => {
  * Retorna o ano atual
  */
 new Date().getFullYear();
-document.getElementById("year").innerHTML = new Date().getFullYear();
+document.getElementById('year').innerHTML = new Date().getFullYear();
