@@ -10,508 +10,560 @@ Extra large	            xl	        ≥1200px
 /*
  * X-Large devices (large desktops, >=1200px)
  */
+
+ @media (max-width: 1399px) and (min-width: 1200px) {
+    #doc-image {
+        align-items: center;
+    }
+
+    .button{
+        letter-spacing: initial;
+    }
+
+    .card-outline .card-body{
+        margin-left:20px;
+    }
+
+    #botoes-documentacao {
+        margin-top: 30px;
+    }
+
+    #documentacao a {
+        margin-top: 15px;
+        margin-right:11px !important;
+    }
+}
+
 @media (min-width: 1200px) {
 
-    .bloco {
-        padding-bottom: 100px;
-    }
+   .bloco {
+       padding-bottom: 100px;
+   }
 
-    /*
-     * HEADER 
-     */
-    .navbar {
-        padding: 65px 0;
-    }
+   /*
+    * HEADER 
+    */
+   .navbar {
+       padding: 55px 0 100px 0;
+   }
 
-    #logo-header {
-        margin-right: 120px;
-    }
-    /* /HEADER */
-
-
-    /*
-     * INTRODUÇÃO 
-     */
-    #video-discord img {
-        width: 95%;
-        margin: 0 auto;
-        border-radius: 6px;
-        margin: 15px 0;
-    }
-
-    #lottie-comunidade {
-        background-color: transparent;
-        width: 109%;
-        height: 109%;
-        margin-top: -15%;
-        margin-left: -11%;
-    }
-    /* /INTRODUÇÃO */
+   #logo-header {
+       margin-right: 120px;
+   }
+   /* /HEADER */
 
 
-    /*
-     * DOCUMENTAÇÃO
-     */
-    #documentacao :first-child a {
-        margin-right: 10px;
-    }
+   /*
+    * INTRODUÇÃO 
+    */
+   #video-discord img {
+       margin: 0 auto;
+       border-radius: 6px;
+       margin: 5px 0;
+       height: 95px;
+   }
 
-    #doc-image {
-        border-radius: 8px;
-        border-top-left-radius: 300px;
-        min-height: 700px;
-    }
-
-    #doc-image img {
-        position: relative;
-        top: 12%;
-        text-align: center;
-    }
-    /* /DOCUMENTAÇÃO */
-
-}
+   #lottie-comunidade {
+       background-color: transparent;
+       width: 109%;
+       height: 100%;
+       margin-top: -8%;
+       margin-left: -62px;
+   }
+   /* /INTRODUÇÃO */
 
 
-@media (max-width: 1399px) {
-    #documentacao :first-child a {
-        margin-top: 15px;
-    }
+   /*
+    * DOCUMENTAÇÃO
+    */
+   #documentacao :first-child a {
+       margin-right: 20px;
+   }
+
+   #doc-image {
+       border-radius: 0;
+       border-top-left-radius: 300px;
+       min-height: 600px;
+       align-items: center;
+   }
+
+   #doc-image img {
+       position: relative;
+       top: 12%;
+       text-align: center;
+   }
+   /* /DOCUMENTAÇÃO */
+
 }
 
 
 /*
- * X-Large devices (medium tablets, >= 992px and <= 1199px)
- */
+* X-Large devices (medium tablets, >= 992px and <= 1199px)
+*/
 @media (min-width: 992px) and (max-width: 1199px) {
 
-    .bloco {
-        padding-bottom: 65px;
-    }
+   #estatisticas{
+       padding-top:50px;
+   }
+   
+   .bloco {
+       padding-bottom: 15px;
+   }
 
-    /*
-     * HEADER 
-     */
-    #header {
-        padding-bottom: 0;
-    }
+   /*
+    * HEADER 
+    */
+   #header {
+       padding-bottom: 0;
+   }
 
-    .navbar {
-        padding: 65px 0;
-    }
+   .navbar {
+       padding: 65px 0;
+   }
 
-    #logo-header {
-        margin-right: 120px;
-    }
-    /* /HEADER */
-
-
-    /*
-     * INTRODUÇÃO 
-     */
-    .card {
-        width: 620px;
-        margin: 0 auto;
-        margin-bottom: 20px;
-    }
-
-    #video-discord img {
-        width: 90%;
-        margin: 0 auto;
-        border-radius: 6px;
-        margin: 15px 0;
-    }
-
-    #lottie-comunidade {
-        background-color: transparent;
-        width: 90%;
-        height: 90%;
-        text-align: center;
-    }
-    /* /INTRODUÇÃO */
+   #logo-header {
+       margin-right: 120px;
+   }
+   /* /HEADER */
 
 
-    /*
-     * NOSSA-COMUNIDADE 
-     */
-    #descricao-nossa-comunidade {
-        text-align: center;
-        margin-top: 60px;
-    }
+   /*
+    * INTRODUÇÃO 
+    */
+   .card {
+       width: 620px;
+       margin: 0 auto;
+       margin-bottom: 20px;
+   }
 
-    #descricao-nossa-comunidade p {
-        margin: 0px 0 30px 0;
-    }
-    /* /NOSSA-COMUNIDADE */
+   #video-discord img {
+       width: 90%;
+       margin: 0 auto;
+       border-radius: 6px;
+       margin: 15px 0;
+   }
 
-
-    /*
-     * ESTATÍSTICAS
-     */
-    #linguagens-programacao {
-        text-align: center;
-        margin-top: 30px;
-    }
-
-    #borda-linguagens,
-    #borda-membros {
-        border-left: 0px;
-    }
-
-    .borda-custom :nth-child(2) {
-        border-left: solid 1px #8b96aa2f;
-    }
-    /* /ESTATÍSTICAS */
+   #lottie-comunidade {
+       background-color: transparent;
+       width: 90%;
+       height: 90%;
+       text-align: center;
+   }
+   /* /INTRODUÇÃO */
 
 
-    /*
-     * DOCUMENTAÇÃO
-     */
-    #descricao-documentacao {
-        text-align: center;
-    }
+   /*
+    * NOSSA-COMUNIDADE 
+    */
+   #descricao-nossa-comunidade {
+       text-align: center;
+       margin-top: 60px;
+   }
 
-    #botoes-documentacao {
-        text-align: center;
-    }
+   #descricao-nossa-comunidade p {
+       margin: 0px 0 30px 0;
+   }
+   /* /NOSSA-COMUNIDADE */
 
-    #documentacao :first-child a {
-        margin-right: 10px;
-    }
 
-    #doc-image {
-        margin-bottom: 60px;
-        border-radius: 8px;
-    }
+   /*
+    * ESTATÍSTICAS
+    */
+   #linguagens-programacao {
+       text-align: center;
+       margin-top: 30px;
+   }
 
-    #doc-image img {
-        width: 350px;
-    }
-    /* /DOCUMENTAÇÃO */
+   #borda-linguagens,
+   #borda-membros {
+       border-left: 0px;
+   }
+
+   .borda-custom :nth-child(2) {
+       border-left: solid 1px #8b96aa2f;
+   }
+   /* /ESTATÍSTICAS */
+
+
+   /*
+    * DOCUMENTAÇÃO
+    */
+   #descricao-documentacao {
+       text-align: center;
+       padding-right: 0px;
+   }
+
+   #botoes-documentacao {
+       text-align: center;
+   }
+
+   #documentacao :first-child a {
+       margin-right: 10px;
+   }
+
+   #doc-image {
+       margin-bottom: 60px;
+       border-radius: 8px;
+       display: initial;
+       border-radius: 4px;
+       position: initial;
+   }
+
+   #doc-image img {
+       width: 350px;
+   }
+   /* /DOCUMENTAÇÃO */
 
 
 }
 
 
 /*
- * Medium devices (Medium phones, width >= 768px and <= 991px )
- */
+* Medium devices (Medium phones, width >= 768px and <= 991px )
+*/
 @media (min-width: 768px) and (max-width: 991px) {
 
-    .bloco {
-        padding-bottom: 65px;
-    }
+   .bloco {
+       padding-bottom: 70px;
+   }
 
-    /*
-     * HEADER 
-     */
-    #header .navbar-collapse {
-        background: var(--dark-blue_bg) 0% 0% no-repeat padding-box;
-        border-radius: 8px;
-        margin: 15px 0;
-        padding: 15px 0;
-        width: 100%;
-    }
+   /*
+    * HEADER 
+    */
+   #header .navbar-collapse {
+       background: var(--dark-blue_bg) 0% 0% no-repeat padding-box;
+       border-radius: 8px;
+       margin: 15px 0;
+       padding: 15px 0;
+       width: 100%;
+   }
 
-    .navbar {
-        padding: 30px 0;
-    }
-    /* /HEADER */
-
-
-    /*
-     * INTRODUÇÃO 
-     */
-
-    .card {
-        width: 100%;
-        margin: 0 auto;
-        margin-bottom: 20px;
-    }
-
-    #video-discord img {
-        width: 90%;
-        margin: 0 auto;
-        border-radius: 6px;
-        margin: 15px;
-    }
-
-    #lottie-comunidade {
-        background-color: transparent;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-    }
-    /* /INTRODUÇÃO */
+   .navbar {
+       padding: 30px 0;
+   }
+   /* /HEADER */
 
 
-    /*
-     * NOSSA-COMUNIDADE 
-     */
-    #descricao-nossa-comunidade {
-        text-align: center;
-        margin-top: 60px;
-    }
+   /*
+    * INTRODUÇÃO 
+    */
 
-    #descricao-nossa-comunidade p {
-        margin: 0px 0 30px 0;
-    }
+   .card {
+       width: 100%;
+       margin: 0 auto;
+       margin-bottom: 20px;
+   }
 
-    #stacks {
-        text-align: center;
-    }
-    /* /NOSSA-COMUNIDADE */
+   #video-discord img {
+       /* width: 90%; */
+       margin: 0 auto;
+       border-radius: 6px;
+       margin: 8px;
+       height: 100px;
+   }
 
-
-    /*
-     * ESTATÍSTICAS
-     */
-    #linguagens-programacao {
-        text-align: center;
-        margin-top: 30px;
-    }
-
-    #borda-linguagens,
-    #borda-membros,
-    #borda-convite {
-        border-left: 0px;
-    }
-
-    #borda-convite {
-        margin-top: 30px;
-    }
-    /* /ESTATÍSTICAS */
+   #lottie-comunidade {
+       background-color: transparent;
+       width: 100%;
+       height: 100%;
+       text-align: center;
+   }
+   /* /INTRODUÇÃO */
 
 
-    #stacks img,
-    #linguagens-programacao img {
-        width: 45px;
-        height: 45px;
-    }
+   /*
+    * NOSSA-COMUNIDADE 
+    */
+   #descricao-nossa-comunidade {
+       text-align: center;
+       margin-top: 60px;
+   }
+
+   #descricao-nossa-comunidade p {
+       margin: 0px 0 30px 0;
+   }
+
+   #stacks {
+       text-align: center;
+   }
+   /* /NOSSA-COMUNIDADE */
 
 
-    /*
-     * DOCUMENTAÇÃO
-     */
-    #descricao-documentacao {
-        text-align: center;
-    }
+   /*
+    * ESTATÍSTICAS
+    */
+   #linguagens-programacao {
+       text-align: center;
+       margin-top: 30px;
+   }
 
-    #botoes-documentacao {
-        text-align: center;
-    }
+   #borda-linguagens,
+   #borda-membros,
+   #borda-convite {
+       border-left: 0px;
+   }
 
-    #documentacao :first-child a {
-        margin-right: 10px;
-    }
-
-    #doc-image {
-        margin-bottom: 60px;
-        border-radius: 8px;
-    }
-
-    #doc-image img {
-        width: 350px;
-    }
-    /* /DOCUMENTAÇÃO */
+   #borda-convite {
+       margin-top: 30px;
+   }
+   /* /ESTATÍSTICAS */
 
 
-    /*
-     * RODAPÉ
-     */
-    #rodape ul {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-    }
-    /* /RODAPÉ */
+   #stacks img,
+   #linguagens-programacao img {
+       width: 45px;
+       height: 45px;
+   }
+
+   #estatisticas{
+    padding-bottom:0;   
+   }
+
+
+   /*
+    * DOCUMENTAÇÃO
+    */
+   #descricao-documentacao {
+       text-align: center;
+       padding-right: 0;
+   }
+
+   #botoes-documentacao {
+       text-align: center;
+   }
+
+   #documentacao :first-child a {
+       margin-right: 10px;
+   }
+
+   #doc-image {
+       margin-bottom: 60px;
+       border-radius: 8px;
+       position: relative;
+       display: initial;
+   }
+
+   #doc-image img {
+       width: 350px;
+   }
+   /* /DOCUMENTAÇÃO */
+
+
+   /*
+    * RODAPÉ
+    */
+   #rodape ul {
+       margin: 0;
+       padding: 0;
+       display: flex;
+       justify-content: center;
+   }
+   /* /RODAPÉ */
 }
 
 
 
 /*
- * Small devices (Small phones, < 767px)
- */
+* Small devices (Small phones, < 767px)
+*/
 @media (max-width: 767px) {
 
-    h1 {
-        font-size: 20px;
-        font-weight: medium;
-        color: var(--orange_gn);
-        line-height: 1;
-    }
+   h1 {
+       font-size: 20px;
+       font-weight: medium;
+       color: var(--orange_gn);
+       line-height: 1;
+   }
 
-    h2 {
-        font-size: 40px;
-        font-weight: bold;
-        color: var(--white_gn);
-        line-height: 1;
-        margin: 15px 0 15px 0;
-    }
+   h2 {
+       font-size: 40px;
+       font-weight: bold;
+       color: var(--white_gn);
+       line-height: 1;
+       margin: 15px 0 15px 0;
+   }
 
-    h5 {
-        font-size: 18px;
-        font-weight: bold;
-        color: var(--grey_gn);
-    }
+   h5 {
+       font-size: 18px;
+       font-weight: bold;
+       color: var(--grey_gn);
+   }
 
-    .bloco {
-        padding-bottom: 50px;
-    }
+   
 
-    /*
-     * HEADER 
-     */
-    #header .navbar-collapse {
-        background: var(--dark-blue_bg) 0% 0% no-repeat padding-box;
-        border-radius: 8px;
-        margin: 15px 0;
-        padding: 15px 0;
-        width: 100%;
-    }
+   .bloco {
+       padding-bottom: 50px;
+   }
 
-    #logo-header img {
-        margin-right: 0;
-        width: 210px;
-    }
+   /*
+    * HEADER 
+    */
+   #header .navbar-collapse {
+       background: var(--dark-blue_bg) 0% 0% no-repeat padding-box;
+       border-radius: 8px;
+       margin: 15px 0;
+       padding: 15px 0;
+       width: 100%;
+   }
 
-    .navbar {
-        padding: 30px 0;
-    }
-    /* /HEADER */
+   #logo-header img {
+       margin-right: 0;
+       width: 210px;
+   }
 
-
-    /*
-     * INTRODUÇÃO 
-     */
-    .card {
-        width: 100%;
-        margin: 0 auto;
-        margin-bottom: 20px;
-    }
-
-    .card-body {
-        text-align: center;
-    }
-
-    .button {
-        width: 100%;
-        text-align: center;
-    }
-
-    #video-discord img {
-        width: 94%;
-        margin-top: 10px;
-        border-radius: 6px;
-    }
-
-    #acesso-discord {
-        font-size: 22px;
-    }
-
-    #lottie-comunidade {
-        background-color: transparent;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        padding-bottom: 20px;
-    }
-    /* /INTRODUÇÃO */
+   .navbar {
+       padding: 30px 0;
+   }
+   /* /HEADER */
 
 
-    /*
-     * NOSSA-COMUNIDADE 
-     */
-    #descricao-nossa-comunidade {
-        text-align: center;
-        margin-top: 60px;
-    }
+   /*
+    * INTRODUÇÃO 
+    */
+   .card {
+       width: 100%;
+       margin: 0 auto;
+       margin-bottom: 20px;
+   }
 
-    #descricao-nossa-comunidade p {
-        margin: 0px 0 30px 0;
-    }
+   .card-body {
+       text-align: center;
+   }
 
-    #stacks {
-        text-align: center;
-    }
-    /* /NOSSA-COMUNIDADE */
+   .button {
+       width: 100%;
+       text-align: center;
+   }
 
+   #video-discord img {
+       width: 94%;
+       margin-top: 10px;
+       border-radius: 6px;
+   }
 
-    /*
-     * ESTATÍSTICAS
-     */
-    #linguagens-programacao {
-        text-align: center;
-    }
+   #acesso-discord {
+       font-size: 22px;
+   }
 
-    #borda-linguagens,
-    #borda-membros,
-    #borda-suporte,
-    #borda-convite {
-        border-left: 0px;
-    }
-
-    #borda-membros,
-    #borda-suporte {
-        margin-bottom: 55px;
-    }
-    /* /ESTATÍSTICAS */
-
-
-    /*
-     * DOCUMENTAÇÃO
-     */
-    #descricao-documentacao {
-        text-align: center;
-    }
-
-    #botoes-documentacao {
-        text-align: center;
-    }
-
-    #documentacao :first-child a {
-        margin-right: 10px;
-    }
-
-    #doc-image {
-        margin-bottom: 60px;
-        border-radius: 8px;
-    }
-
-    #doc-image img {
-        width: 50%;
-    }
-    /* /DOCUMENTAÇÃO */
+   #lottie-comunidade {
+       background-color: transparent;
+       width: 100%;
+       height: 100%;
+       text-align: center;
+       padding-bottom: 20px;
+       margin-left: -20px;
+   }
+   /* /INTRODUÇÃO */
 
 
+   /*
+    * NOSSA-COMUNIDADE 
+    */
+   #descricao-nossa-comunidade {
+       text-align: center;
+       margin-top: 60px;
+       padding: 0 40px;
+   }
 
-    /*
-     * DEVS
-     */
-    .img-overlay .button {
-        max-width: 300px;
-        text-align: center;
-    }
+   #descricao-nossa-comunidade p {
+       margin: 0px 0 30px 0;
+   }
 
-    .img-overlay {
-        top: 120px;
-    }
-    /* /DEVS */
+   #stacks {
+       text-align: center;
+       padding: 5px 50px 5px 50px;
+   }
+   /* /NOSSA-COMUNIDADE */
 
 
+   /*
+    * ESTATÍSTICAS
+    */
 
-    /*
-     * RODAPÉ
-     */
-    #rodape ul {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-    }
+   #estatisticas{
+       padding-bottom:0;   
+   }
+   
+   #linguagens-programacao {
+       text-align: center;
+       padding: 50px 0 0 0;
+   }
 
-    #copyright {
-        margin: 15px 0 15px 0;
-    }
-    /* /RODAPÉ */
+   #borda-linguagens,
+   #borda-membros,
+   #borda-suporte,
+   #borda-convite {
+       border-left: 0px;
+       padding: 0 50px;
+   }
+
+   #borda-membros,
+   #borda-suporte {
+       margin-bottom: 55px;
+   }
+   /* /ESTATÍSTICAS */
+
+
+   /*
+    * DOCUMENTAÇÃO
+    */
+   #descricao-documentacao {
+       text-align: center;
+       padding-right: 0;
+   }
+
+   #botoes-documentacao {
+       text-align: center;
+   }
+
+   #documentacao :first-child a {
+       margin-right: 10px;
+       margin-bottom: 17px;
+   }
+
+   #doc-image {
+       margin-bottom: 60px;
+       border-radius: 8px;
+       display: initial;
+       position: initial;
+       border-radius: 0;
+   }
+
+   #doc-image img {
+       width: 50%;
+       margin: 25px;
+   }
+   /* /DOCUMENTAÇÃO */
+
+
+
+   /*
+    * DEVS
+    */
+   .img-overlay .button {
+       max-width: 300px;
+       text-align: center;
+   }
+
+   .img-overlay {
+       top: 70px;
+   }
+   /* /DEVS */
+
+
+
+   /*
+    * RODAPÉ
+    */
+   #rodape ul {
+       margin: 0;
+       padding: 0;
+       display: flex;
+       justify-content: center;
+   }
+
+   #copyright {
+       margin: 15px 0 15px 0;
+   }
+   /* /RODAPÉ */
 }

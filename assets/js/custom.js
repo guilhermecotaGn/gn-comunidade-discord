@@ -91,3 +91,8 @@ document.addEventListener('scroll', () => {
  */
 new Date().getFullYear();
 document.getElementById('year').innerHTML = new Date().getFullYear();
+
+// animações
+$(function(){
+    new WOW().init(); 
+  });

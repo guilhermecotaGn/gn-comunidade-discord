@@ -39,6 +39,7 @@
     <!-- Scripts JS -->
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.css">
 
 
     <link rel="icon" type="image/png" href="./assets/img/favicon-16x16.png" />
@@ -49,7 +50,7 @@
     <div id="header" class="bloco">
         <div class="container">
             <!-- MENU -->
-            <nav class="navbar navbar-expand-lg navbar-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark wow fadeInDown">
                 <a id="logo-header" class="navbar-brand" href="#">
                     <img src="./assets/img/gerencianet-header.svg" alt="logo Gerencianet" class="img-fluid">
                 </a>
@@ -79,14 +80,14 @@
                     <div class="row">
                         <div class="col-12 col-lg-12 col-xl-6 align-self-center">
                             <div class="text-center text-xl-start">
-                                <h1>Nossa comunidade no Discord</h1>
-                                <h2>Venha que nós te ajudamos!</h2>
-                                <p>Tem dúvidas em como integrar as API's da Gerencianet ao seu sistema?
+                                <h1 class="wow fadeInUp" data-wow-delay="0.1s">Nossa comunidade no Discord</h1>
+                                <h2 class="wow fadeInUp" data-wow-delay="0.3s">Venha que nós te ajudamos!</h2>
+                                <p class="wow fadeInUp" data-wow-delay="0.5s">Tem dúvidas em como integrar as API's da Gerencianet ao seu sistema?
                                     Nossa comunidade
                                     pode te auxiliar, além disso, temos uma equipe sempre dispostar a te ajudar.</p>
                             </div>
 
-                            <div class="card card-primary">
+                            <div class="card card-primary wow fadeInUp" data-wow-delay="0.7s">
                                 <div class="row g-0">
                                     <div class="col-lg-5 col-md-5 align-self-center">
                                         <div class="card-body text-center text-md-start">
@@ -96,8 +97,8 @@
                                     </div>
                                     <div class="col-lg-7 col-md-7 align-self-center text-center">
                                         <div class="card-body">
-                                            <a type="button" class="btn btn-primary button button-primary-discord"
-                                                href="https://discord.gg/ptGHMtczcV" target="_blank">
+                                            <a type="button" class="btn btn-primary button button-primary-discord wow bounceIn"
+                                                href="https://discord.gg/ptGHMtczcV" target="_blank" data-wow-delay="1.4s">
                                                 <img class="icon" src="./assets/img/discord-btn.svg" alt="Logo Discord">
                                                 Conectar no Discord
                                             </a>
@@ -106,7 +107,7 @@
                                 </div>
                             </div>
 
-                            <div class="card align-center card-outline">
+                            <div class="card align-center card-outline wow fadeInUp" data-wow-delay="0.9s">
                                 <div class="row g-0">
                                     <div class="col-lg-4 col-md-5 align-self-center">
                                         <a id="video-discord" data-fancybox href="https://youtu.be/EYIrTEYOTmc">
@@ -115,9 +116,9 @@
                                         </a>
                                     </div>
                                     <div class="col-lg-8 col-md-7 align-self-center">
-                                        <div class="card-body">
+                                        <div class="card-body" data-fancybox href="https://youtu.be/EYIrTEYOTmc">
                                             <h4 id="tutorial-discord">Tutorial</h4>
-                                            <a id="cta-video" data-fancybox href="https://youtu.be/EYIrTEYOTmc">
+                                            <a id="cta-video">
                                                 <img src="./assets/img/play-icon.svg"
                                                     alt="Play vídeo, como acessar o Discord">Assista ao vídeo
                                             </a>
@@ -147,7 +148,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-12 col-xl-7">
-                    <iframe id="widget-discord" src="https://discord.com/widget?id=775322853884821504&theme=dark"
+                    <iframe id="widget-discord" class="wow fadeInUp" data-wow-delay="1s" src="https://discord.com/widget?id=775322853884821504&theme=dark"
                         allowtransparency="true" frameborder="0"></iframe>
                 </div>
                 <div class="col-12 col-lg-12 col-xl-5 align-self-center">
@@ -158,56 +159,56 @@
                     </div>
                     <div id="stacks">
                         <div class="row row-cols-12 row-cols-xl-5">
-                            <div class="col mb-3">
+                            <div class="col mb-3 wow fadeInUp" data-wow-delay="0.1s">
                                 <a href="https://github.com/gerencianet/gn-api-woocommerce" target="_blank">
                                     <img class="img-zoom" src="./assets/img/stacks/item1.svg"
                                         alt="Módulo WordPress para WooCommerce">
                                 </a>
                             </div>
-                            <div class="col mb-3">
+                            <div class="col mb-3 wow fadeInUp" data-wow-delay="0.2s">
                                 <a href="https://github.com/gerencianet/gn-api-opencart" target="_blank">
                                     <img class="img-zoom" src="./assets/img/stacks/item2.svg" alt="Módulo OpenCart">
                                 </a>
                             </div>
-                            <div class="col mb-3">
+                            <div class="col mb-3 wow fadeInUp" data-wow-delay="0.3s">
                                 <a href="https://github.com/gerencianet/gn-api-magento2" target="_blank">
                                     <img class="img-zoom" src="./assets/img/stacks/item3.svg" alt="Módulo Magento 2">
                                 </a>
                             </div>
-                            <div class="col mb-3">
+                            <div class="col mb-3 wow fadeInUp" data-wow-delay="0.4s">
                                 <a href="https://github.com/gerencianet/gn-api-whmcs" target="_blank">
                                     <img class="img-zoom" src="./assets/img/stacks/item4.svg" alt="Módulo WHMCS">
                                 </a>
                             </div>
-                            <div class="col mb-3">
+                            <div class="col mb-3 wow fadeInUp" data-wow-delay="0.5s">
                                 <a href="https://github.com/gerencianet/gn-api-prestashop" target="_blank">
                                     <img class="img-zoom" src="./assets/img/stacks/item5.svg" alt="Módulo PrestaShop">
                                 </a>
                             </div>
-                            <div class="col mb-3">
+                            <div class="col mb-3 wow fadeInUp" data-wow-delay="0.6s">
                                 <a href="https://github.com/gerencianet/gn-api-virtuemart" target="_blank">
                                     <img class="img-zoom" src="./assets/img/stacks/item6.svg"
                                         alt="Módulo Joomla para VirtueMart">
                                 </a>
                             </div>
-                            <div class="col mb-3">
+                            <div class="col mb-3 wow fadeInUp" data-wow-delay="0.7s">
                                 <a href="https://github.com/gerencianet/gn-api-boxbilling" target="_blank">
                                     <img class="img-zoom" src="./assets/img/stacks/item7.svg" alt="Módulo BoxBilling">
                                 </a>
                             </div>
-                            <div class="col mb-3">
+                            <div class="col mb-3 wow fadeInUp" data-wow-delay="0.8s">
                                 <a href="https://github.com/gerencianet/gn-api-sdk-flutter-examples" target="_blank">
                                     <img class="img-zoom" src="./assets/img/stacks/item8.svg"
                                         alt="SDK em Flutter integrado Gerencianet">
                                 </a>
                             </div>
-                            <div class="col mb-3">
+                            <div class="col mb-3 wow fadeInUp" data-wow-delay="0.9s">
                                 <a href="https://github.com/gerencianet/gn-api-sdk-laravel" target="_blank">
                                     <img class="img-zoom" src="./assets/img/stacks/item9.svg"
                                         alt="SDK para Laravel Gerencianet">
                                 </a>
                             </div>
-                            <div class="col mb-3">
+                            <div class="col mb-3 wow fadeInUp" data-wow-delay="1s">
                                 <a href="https://dev.gerencianet.com.br/docs/modulos-plugins" target="_blank">
                                     <img class="img-zoom" src="./assets/img/stacks/item10.svg"
                                         alt="Módulos e plugins Gerencianet">
@@ -228,64 +229,64 @@
             <div class="row">
                 <!-- col-lg-12 col-xl-7 -->
                 <div id="borda-linguagens"
-                    class="col-12 col-md-12 col-lg-12 col-xl-4 order-xl-1 order-4 align-self-center">
+                    class="col-12 col-md-12 col-lg-12 col-xl-3 order-xl-1 order-4 align-self-center">
                     <div id="linguagens-programacao">
                         <div class="row row-cols-12 row-cols-xl-5">
-                            <div class="col mb-3">
+                            <div class="col mb-3 wow fadeInUp" data-wow-delay="0.1s">
                                 <a href="https://github.com/gerencianet/gn-api-sdk-php" target="_blank">
                                     <img class="img-zoom" src="./assets/img/stacks/linguagem1.svg"
                                         alt="SDK PHP Gerencianet">
                                 </a>
                             </div>
-                            <div class="col mb-3">
+                            <div class="col mb-3 wow fadeInUp" data-wow-delay="0.2s">
                                 <a href="https://github.com/gerencianet/gn-api-sdk-node" target="_blank">
                                     <img class="img-zoom" src="./assets/img/stacks/linguagem2.svg"
                                         alt="SDK NodeJS Gerencianet">
                                 </a>
                             </div>
-                            <div class="col mb-3">
+                            <div class="col mb-3 wow fadeInUp" data-wow-delay="0.3s">
                                 <a href="https://github.com/gerencianet/gn-api-sdk-python" target="_blank">
                                     <img class="img-zoom" src="./assets/img/stacks/linguagem3.svg"
                                         alt="SDK Python Gerencianet">
                                 </a>
                             </div>
-                            <div class="col mb-3">
+                            <div class="col mb-3 wow fadeInUp" data-wow-delay="0.4s">
                                 <a href="https://github.com/gerencianet/gn-api-sdk-java" target="_blank">
                                     <img class="img-zoom" src="./assets/img/stacks/linguagem4.svg"
                                         alt="SDK Java Gerencianet">
                                 </a>
                             </div>
-                            <div class="col mb-3">
+                            <div class="col mb-3 wow fadeInUp" data-wow-delay="0.5s">
                                 <a href="https://github.com/gerencianet/gn-api-sdk-typescript" target="_blank">
                                     <img class="img-zoom" src="./assets/img/stacks/linguagem5.svg"
                                         alt="SDK TypeScript Gerencianet">
                                 </a>
                             </div>
-                            <div class="col mb-3">
+                            <div class="col mb-3 wow fadeInUp" data-wow-delay="0.6s">
                                 <a href="https://github.com/gerencianet/gn-api-sdk-dotnet-core" target="_blank">
                                     <img class="img-zoom" src="./assets/img/stacks/linguagem6.svg"
                                         alt="SDK C#/dotNet Gerencianet">
                                 </a>
                             </div>
-                            <div class="col mb-3">
+                            <div class="col mb-3 wow fadeInUp" data-wow-delay="0.7s">
                                 <a href="#" target="_blank">
                                     <img class="img-zoom" src="./assets/img/stacks/linguagem7.svg"
                                         alt="SDK iOS Gerencianet">
                                 </a>
                             </div>
-                            <div class="col mb-3">
+                            <div class="col mb-3 wow fadeInUp" data-wow-delay="0.8s">
                                 <a href="https://github.com/gerencianet/gn-api-sdk-ruby" target="_blank">
                                     <img class="img-zoom" src="./assets/img/stacks/linguagem8.svg"
                                         alt="SDK Ruby Gerencianet">
                                 </a>
                             </div>
-                            <div class="col mb-3">
+                            <div class="col mb-3 wow fadeInUp" data-wow-delay="0.9s">
                                 <a href="" target="_blank">
                                     <img class="img-zoom" src="./assets/img/stacks/linguagem9.svg"
                                         alt="SDK  Gerencianet">
                                 </a>
                             </div>
-                            <div class="col mb-3">
+                            <div class="col mb-3 wow fadeInUp" data-wow-delay="1s">
                                 <a href="https://github.com/gerencianet" target="_blank">
                                     <img class="img-zoom" src="./assets/img/stacks/linguagem-more.svg"
                                         alt="SDK iOS Gerencianet">
@@ -294,18 +295,18 @@
                         </div>
                     </div>
                 </div>
-                <div id="borda-membros" class="col-12 col-md-6 col-lg-3 col-xl-2 order-xl-2 order-1 text-center">
+                <div id="borda-membros" class="col-12 col-md-6 col-lg-3 col-xl-2 order-xl-2 order-1 text-center wow fadeInRight" data-wow-delay="1s">
                     <h3>Membros</h3>
                     <span id="membros">+1500</span>
                     <h5>Membros ativos e apoiadores</h5>
                 </div>
-                <div id="borda-suporte" class="col-12 col-md-6 col-lg-3 col-xl-2 order-xl-3 order-2 text-center">
+                <div id="borda-suporte" class="col-12 col-md-6 col-lg-3 col-xl-3 order-xl-3 order-2 text-center wow fadeInRight" data-wow-delay="1.2s">
                     <h3>Suporte Team</h3>
                     <span id="time-suporte">+10</span>
                     <h5>Devs exclusivos da Gerencianet para te ajudar</h5>
                 </div>
                 <div id="borda-convite"
-                    class="col-12 col-md-12 col-lg-6 col-xl-4 order-xl-4 order-3 text-center text-lg-start">
+                    class="col-12 col-md-12 col-lg-6 col-xl-4 order-xl-4 order-3 text-center text-lg-start wow fadeInRight" data-wow-delay="1.5s">
                     <h3>Venha fazer parte!</h3>
                     <p>Com humildade para aprender e altruísmo para compartilhar seu conhecimento, você
                         fará parte de
@@ -323,9 +324,9 @@
             <div class="row">
                 <div class="col-12 col-lg-12 col-xl-6 order-xl-1 order-2 align-self-center">
                     <div id="descricao-documentacao">
-                        <h1>Nossa documentação técnica</h1>
-                        <h2>Como realizar a integração</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        <h1 class="wow fadeInUp" data-wow-delay="0.5s">Nossa documentação técnica</h1>
+                        <h2 class="wow fadeInUp" data-wow-delay="0.7s">Como realizar a integração</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.8s">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                             unknown
                             printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -333,12 +334,12 @@
 
                     <div id="botoes-documentacao">
                         <a href="https://gerencianet.com.br/api" type="button" target="_blank"
-                            class="btn btn-primary button button-primary-gn">
+                            class="btn btn-primary button button-primary-gn wow fadeInUp" data-wow-delay="1.6s">
                             <img class="icon" src="./assets/img/gerencianet-btn.svg" alt="Logo Gerencianet">
                             Documentação técnica
                         </a>
                         <a href="https://www.youtube.com/c/GerencianetBr" type="button" target="_blank"
-                            class="btn btn-outline-primary button button-outline-gn">
+                            class="btn btn-outline-primary button button-outline-gn wow fadeInUp" data-wow-delay="1.8s">
                             <img class="icon" src="./assets/img/youtube-btn.svg" alt="Logo YouTube">
                             Canal no Youtube
                         </a>
@@ -364,8 +365,8 @@
                     <div id="footer-team"></div>
 
                     <div class="img-overlay">
-                        <a type="button" class="btn btn-primary button button-primary-discord"
-                            href="https://discord.gg/ptGHMtczcV" target="_blank">
+                        <a type="button" class="btn btn-primary button button-primary-discord wow bounceIn"
+                            href="https://discord.gg/ptGHMtczcV" target="_blank" data-wow-delay="1s">
                             <img class="icon" src="./assets/img/discord-btn.svg" alt="Logo Discord">
                             Conectar no Discord
                         </a>
@@ -424,12 +425,13 @@
     </div>
     <!-- /RODAPÉ -->
 
-
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
     <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
     <script src="./assets/js/custom.js"></script>
 </body>
 
