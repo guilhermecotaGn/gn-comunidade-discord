@@ -66,10 +66,10 @@ document.addEventListener('scroll', () => {
             var duracao = 2000;
 
             // Contador de membros da comunidade
-            for (var i = 1; i <= 1500; i++) {
+            for (var i = 1; i <= 1600; i++) {
                 setTimeout(function (nr) {
                     membrosComunidade.innerHTML = "+" + nr;
-                }, i * duracao / 1500, i);
+                }, i * duracao / 1600, i);
             }
 
             // Contador de membros da Consultoria Técnica
