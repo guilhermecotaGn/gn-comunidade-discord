@@ -41,19 +41,19 @@ A Gerencianet oferece aos clientes uma Conta Digital gratuita, com automatiz
 Para conhecer um pouco mais sobre a Gerencianet, acompanhe-nos nas redes sociais:
 
 <p align="left">
-    <a href="https://www.youtube.com/c/GerencianetBr" target="blank">
+    <a href="https://www.youtube.com/c/GerencianetBr" target="_blank">
         <img align="center" src="https://guilhermecotagn.github.io/gn-comunidade-discord/assets/img/youtube.svg" alt="" height="30" width="40" />
     </a>
-    <a href="https://www.facebook.com/Gerencianet" target="blank">
+    <a href="https://www.facebook.com/Gerencianet" target="_blank">
         <img align="center" src="https://guilhermecotagn.github.io/gn-comunidade-discord/assets/img/facebook.svg" alt="" height="30" width="40" />
     </a>
-    <a href="https://twitter.com/gerencianet" target="blank">
+    <a href="https://twitter.com/gerencianet" target="_blank">
         <img align="center" src="https://guilhermecotagn.github.io/gn-comunidade-discord/assets/img/twitter.svg" alt="" height="30" width="40"/>
     </a>
-    <a href="https://www.instagram.com/gerencianet" target="blank">
+    <a href="https://www.instagram.com/gerencianet" target="_blank">
         <img align="center" src="https://guilhermecotagn.github.io/gn-comunidade-discord/assets/img/instagram.svg" alt="" height="30" width="40" />
     </a>
-    <a href="https://www.linkedin.com/company/gerencianet" target="blank">
+    <a href="https://www.linkedin.com/company/gerencianet" target="_blank">
         <img align="center" src="https://guilhermecotagn.github.io/gn-comunidade-discord/assets/img/linkedin.svg" alt="" height="30" width="40" />
     </a>    
 </p>
