@@ -1,8 +1,8 @@
 <h1 align="center">Gerencianet no Discord</h1>
 
-![SDK Gerencianet para PHP](https://guilhermecotagn.github.io/gn-comunidade-discord/assets/img/thumb-repository.png)
+![SDK Gerencianet para PHP](https://gerencianet.github.io/gn-comunidade-discord/assets/img/thumb-repository.png)
 
-Se você tem vontade de aprender integrar a uma API completa de pagamentos, trocar experiências e compartilhar seu conhecimento, conecte-se à comunidade da Gerencianet no Discord.
+Se você tem a necessidade de integrar seu sistema ou aplicação a uma API completa de pagamentos, desejos de trocar experiências e compartilhar seu conhecimento, conecte-se à comunidade da Gerencianet no Discord.
 
 ## Sumário
 
@@ -20,7 +20,7 @@ Para evitar descontentamentos e um ambiente prejudicial, criamos algumas regrinh
 ## Como participar
 
 Para acessar a nossa comunidade, basta entrar no nosso [servidor](https://discord.gg/ptGHMtczcV).
-Lembrando que para isso, é necessário que você crie uma [conta no discord](https://discord.com/register).
+Lembrando que para isso, é necessário que você crie uma [conta no Discord](https://discord.com/register).
 
 Com o intuito de separar por tópicos os assuntos abordados, criamos grupos específicos para facilitar a comunicação. Para ajudar, listamos abaixo alguns dos canais disponíveis:
 
