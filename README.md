@@ -2,8 +2,6 @@
 
 ![SDK Gerencianet para PHP](https://guilhermecotagn.github.io/gn-comunidade-discord/assets/img/thumb-repository.png)
 
----
-
 Se você tem vontade de aprender integrar a uma API completa de pagamentos, trocar experiências e compartilhar seu conhecimento, conecte-se à comunidade da Gerencianet no Discord.
 
 ## Sumário
