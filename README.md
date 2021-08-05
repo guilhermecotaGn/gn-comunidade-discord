@@ -1,6 +1,6 @@
 <h1 align="center">Gerencianet no Discord</h1>
 
-![SDK Gerencianet para PHP](https://gerencianet.github.io/gn-comunidade-discord/assets/img/thumb-repository.png)
+![Capa reposirório da comunidade Gerencianet no Discord](https://gerencianet.github.io/gn-comunidade-discord/assets/img/thumb-repository.png)
 
 Se você tem a necessidade de integrar seu sistema ou aplicação a uma API completa de pagamentos, desejos de trocar experiências e compartilhar seu conhecimento, conecte-se à comunidade da Gerencianet no Discord.
 
