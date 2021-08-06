@@ -1,4 +1,16 @@
 /*
+ * Loading
+ */
+//if has .loading on body, add  overflow:hidden on html tag
+var html = document.querySelector('html');
+var body = document.querySelector('body');
+
+$(window).load(function () {
+    body.classList.remove("loading");
+    html.classList.remove("hiddenOverflow");
+});
+
+/*
  * Random Lottie files de animação
  */
 function animacaoAleatoria() {
@@ -93,6 +105,6 @@ new Date().getFullYear();
 document.getElementById('year').innerHTML = new Date().getFullYear();
 
 // animações
-$(function(){
-    new WOW().init(); 
-  });
+$(function () {
+    new WOW().init();
+});

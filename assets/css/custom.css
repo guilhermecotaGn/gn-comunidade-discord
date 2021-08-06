@@ -1,7 +1,49 @@
 /*
- *HEADER 
+ * LOADING 
  */
- #header {
+body.loading:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #242939;
+}
+
+body.loading:before {
+    content: "";
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background: url('https://gerencianet.com.br/wp-content/themes/Gerencianet/assets/images/svg/logo-gerencianet-footer.svg') #242939 no-repeat center center;
+    background-size: 130px;
+    animation: flash 1s linear infinite;
+    z-index: 9;
+}
+
+@keyframes flash {
+    50% {
+        opacity: 0;
+    }
+}
+
+.hiddenOverflow {
+    overflow: hidden;
+}
+
+/* /LOADING */
+
+
+
+/*
+ * HEADER 
+ */
+#header {
     width: 100%;
     background: transparent linear-gradient(176deg, var(--dark-gray_bg) 0%, #120F23 100%) 0% 0% no-repeat padding-box;
 }
@@ -25,6 +67,7 @@
 #header nav ul li:first-child a {
     color: var(--orange_gn);
 }
+
 /* /HEADER */
 
 
@@ -70,6 +113,7 @@
     border-radius: 6px;
     margin: 15px;
 }
+
 /* /INTRODUÇÃO */
 
 
@@ -88,6 +132,7 @@
     margin: 0 auto;
     margin-top: -40px;
 }
+
 /* /NOSSA-COMUNIDADE  */
 
 
@@ -122,9 +167,10 @@
     justify-content: center;
 }
 
-#borda-convite p{
-    margin-bottom:0;
+#borda-convite p {
+    margin-bottom: 0;
 }
+
 /* /ESTATÍSTICAS  */
 
 #linguagens-programacao {
@@ -136,9 +182,9 @@
     height: 55px;
 }
 
-#linguagens-programacao img{
-     width: 45px;
-     margin: 8px 0px;
+#linguagens-programacao img {
+    width: 45px;
+    margin: 8px 0px;
 }
 
 
@@ -163,7 +209,7 @@
     position: absolute;
     right: 1px;
     top: 0;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: flex-start;
 }
@@ -189,7 +235,7 @@
  * DEVS
  */
 
-#devs a{
+#devs a {
     display: inline-flex;
 }
 
@@ -216,6 +262,7 @@
     display: block;
     height: 50%;
 }
+
 /* /DEVS  */
 
 
@@ -260,4 +307,5 @@
 footer {
     padding: 50px 0;
 }
+
 /* /RODAPÉ  */
