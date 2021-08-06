@@ -58,6 +58,10 @@ p {
 /* 
   * Botões
   */
+a {
+    text-decoration: none;
+}
+
 .button {
     border-radius: 8px;
     padding: 20px 15px;
@@ -123,6 +127,10 @@ p {
 
 .card-primary {
     background: transparent linear-gradient(187deg, #2F3141 0%, #24263A 100%) 0% 0% no-repeat padding-box;
+}
+
+.card-body button {
+    width: 100%;
 }
 
 .card-outline {
