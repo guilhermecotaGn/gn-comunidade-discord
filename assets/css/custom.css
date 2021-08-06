@@ -235,7 +235,7 @@ body.loading:before {
  * DEVS
  */
 
-#devs a {
+#devs button {
     display: inline-flex;
 }
 
@@ -291,7 +291,7 @@ body.loading:before {
     margin-left: 0;
 }
 
-#rodape ul li a {
+#rodape ul li button {
     display: flex;
     justify-content: center;
     align-items: center;
