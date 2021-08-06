@@ -58,13 +58,8 @@ p {
 /* 
   * Botões
   */
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
+a {
     text-decoration: none;
-    color: initial;
 }
 
 .button {
