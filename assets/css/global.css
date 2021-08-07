@@ -155,3 +155,41 @@ a {
 }
 
 /* /Cards */
+
+/* 
+ * Estilização scrollbar
+ */
+ * {
+    scrollbar-width: 15px;
+    scrollbar-color: #333333 #75788f;
+}
+
+*::-webkit-scrollbar {
+    width: 15px;
+    background-color: #333333;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent linear-gradient(187deg, #75788f 0%, #4d5069 100%) 0% 0% no-repeat padding-box;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #333333;
+    border-radius: 5px;
+}
+
+*::-webkit-scrollbar-corner {
+    background: rgb(46, 44, 44);
+}
+
+*::-webkit-scrollbar-button:start:decrement {
+    background-image: url("../img/scroll-up.png");
+    background-repeat: no-repeat;
+}
+
+*::-webkit-scrollbar-button:end:increment {
+    background-image: url("../img/scroll-down.png");
+    background-repeat: no-repeat;
+}
+
+/* /Estilização scrollbar */
